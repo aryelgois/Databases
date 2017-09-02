@@ -1,6 +1,6 @@
 <?php
 /*
- * Let's generate a SQL to populate the Address database with Brazil's states
+ * Let's generate a .sql to populate the Address database with Brazil's states
  * and counties.
  */
 
