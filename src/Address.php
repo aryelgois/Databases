@@ -160,6 +160,8 @@ class Address
     /**
      * Generates SQL comment about a country
      *
+     * @param string $country_name The country which info will be generated
+     *
      * @return string
      */
     protected function aboutCountry($country_name)
