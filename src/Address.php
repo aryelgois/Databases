@@ -1,11 +1,11 @@
 <?php
 /**
- * This Software is part of aryelgois\databases and is provided "as is".
+ * This Software is part of aryelgois\Databases and is provided "as is".
  *
  * @see LICENSE
  */
 
-namespace aryelgois\databases;
+namespace aryelgois\Databases;
 
 /**
  * Generates a .sql to populate Address database
@@ -14,8 +14,7 @@ namespace aryelgois\databases;
  *
  * @author Aryel Mota Góis
  * @license MIT
- * @link https://www.github.com/aryelgois/databases
- * @version 0.1
+ * @link https://www.github.com/aryelgois/Databases
  */
 class Address
 {
@@ -45,7 +44,7 @@ class Address
                  . "--\n"
                  . "-- Remember to run create.sql and populate_countries.sql before\n"
                  . "--\n"
-                 . "-- @link https://www.github.com/aryelgois/databases\n"
+                 . "-- @link https://www.github.com/aryelgois/Databases\n"
                  . "USE address;\n";
     
     /**

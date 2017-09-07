@@ -4,7 +4,7 @@
  * and counties.
  */
 
-use aryelgois\databases\Address;
+use aryelgois\Databases\Address;
 
 require __DIR__ . '/../vendor/autoload.php';
 

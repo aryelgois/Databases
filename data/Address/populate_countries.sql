@@ -5,7 +5,7 @@
 --
 -- Remember to run create.sql before
 --
--- @link https://www.github.com/aryelgois/databases
+-- @link https://www.github.com/aryelgois/Databases
 USE address;
 
 
