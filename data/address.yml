@@ -1,0 +1,29 @@
+database:
+  name: address
+  project: aryelgois/databases
+  description: A database with every Country, State and County
+  license: MIT
+
+definitions:
+  pk: PRIMARY KEY AUTO_INCREMENT
+  name: varchar(60)
+
+tables:
+  countries:
+    id: pk smallint
+    code_a2: char(2)
+    code_a3: char(3)
+    code_number: char(3)
+    name_en: name
+    name_local: name NULLABLE
+
+  states:
+    id: pk int
+    country: smallint -> countries.id
+    code: varchar(3)
+    name: name
+
+  counties:
+    id: pk int
+    state: int -> states.id
+    name: name
