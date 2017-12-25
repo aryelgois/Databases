@@ -24,14 +24,14 @@ class Address
      * @const string
      */
     const PATH = __DIR__ . '/../data/Address';
-    
+
     /**
      * How many entries can are allowed in each INSERT INTO statement
      *
      * @const integer
      */
     const CHUNK_SIZE = 100;
-    
+
     /**
      * Added in the .sql header
      *
@@ -46,14 +46,14 @@ class Address
                  . "--\n"
                  . "-- @link https://www.github.com/aryelgois/Databases\n"
                  . "USE address;\n";
-    
+
     /**
      * Contains all loaded data from countries
      *
      * @const array[]
      */
     protected $countries;
-    
+
     /**
      * Creates a new Address object, loading countries data from JSONs
      *
@@ -73,7 +73,7 @@ class Address
         }
         $this->countries = $data;
     }
-    
+
     /**
      * Generates SQL to populate the Address table
      *
@@ -90,13 +90,13 @@ class Address
             $count_states = 0;
             $sql_states = $this->aboutCountry($country_name) . "\n";
             $sql_counties = '';
-            
+
             foreach ($country['states'] as $state) {
                 if ($count_states == 0) {
                     $sql_states .= "INSERT INTO `states` (`id`, `country`, `code`, `name`) VALUES\n";
                 }
                 $chunk_states[] = '(' . ++$id_states . ', ' . $country['country'] . ", '" . $state['code'] . "', '" . str_replace("'", "\\'", $state['name']) . "')";
-                
+
                 $chunk_counties = [];
                 $count_counties = 0;
                 $sql_counties .= '-- ' . $country_name . ' -> ' . $state['name'] . "\n\n";
@@ -114,8 +114,8 @@ class Address
                 if (!empty($chunk_counties)) {
                     $sql_counties .= implode(",\n", $chunk_counties) . ";\n\n";
                 }
-                
-                
+
+
                 if (++$count_states == self::CHUNK_SIZE) {
                     $sql_states .= implode(",\n", $chunk_states) . ";\n";
                     $chunk_states = [];
@@ -125,19 +125,19 @@ class Address
             if (!empty($chunk_states)) {
                 $sql_states .= implode(",\n", $chunk_states) . ";\n";
             }
-            
+
             $sql .= $sql_states . "\n"
                   . $sql_counties . "\n";
         }
-        
+
         $result = self::HEADER . "\n\n"
                 . $this->listCountries() . "\n\n"
                 . $sql
                 . "-- END";
-        
+
         return $result;
     }
-    
+
     /**
      * Generates SQL comment listing countries
      *
@@ -155,7 +155,7 @@ class Address
         }
         return $result;
     }
-    
+
     /**
      * Generates SQL comment about a country
      *
