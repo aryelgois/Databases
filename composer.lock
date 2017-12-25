@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4594040f5f429ef67f70cc49e71181cd",
+    "content-hash": "c24d349787f88b68b8d474a8c1a55ba9",
     "packages": [
         {
             "name": "aryelgois/yasql-php",
