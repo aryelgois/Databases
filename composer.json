@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.0",
-        "aryelgois/yasql-php": "^0.1"
+        "aryelgois/yasql-php": "dev-develop"
     },
     "autoload": {
         "psr-4": {
