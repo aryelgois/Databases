@@ -1,5 +1,3 @@
 databases:
 - path: data/address.yml
   post: data/address/populate_countries.sql
-
-output: build
