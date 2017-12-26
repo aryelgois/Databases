@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aryelgois/yasql-php.git",
-                "reference": "4ab31d01eb9f8c0d58e1d331047dc4805b911514"
+                "reference": "5c5eb401db59b86b8dd583f68d4d60c4d63fd771"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aryelgois/yasql-php/zipball/4ab31d01eb9f8c0d58e1d331047dc4805b911514",
-                "reference": "4ab31d01eb9f8c0d58e1d331047dc4805b911514",
+                "url": "https://api.github.com/repos/aryelgois/yasql-php/zipball/5c5eb401db59b86b8dd583f68d4d60c4d63fd771",
+                "reference": "5c5eb401db59b86b8dd583f68d4d60c4d63fd771",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 "sql",
                 "yaml"
             ],
-            "time": "2017-12-25T18:23:01+00:00"
+            "time": "2017-12-26T21:53:26+00:00"
         },
         {
             "name": "symfony/yaml",
