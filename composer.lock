@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c24d349787f88b68b8d474a8c1a55ba9",
+    "content-hash": "c89f17e5f384d419972d626d0c165959",
     "packages": [
         {
             "name": "aryelgois/yasql-php",
-            "version": "dev-develop",
+            "version": "v0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aryelgois/yasql-php.git",
-                "reference": "5c5eb401db59b86b8dd583f68d4d60c4d63fd771"
+                "reference": "2d1613a2f76065a248f7d585c374e93d50065f1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aryelgois/yasql-php/zipball/5c5eb401db59b86b8dd583f68d4d60c4d63fd771",
-                "reference": "5c5eb401db59b86b8dd583f68d4d60c4d63fd771",
+                "url": "https://api.github.com/repos/aryelgois/yasql-php/zipball/2d1613a2f76065a248f7d585c374e93d50065f1a",
+                "reference": "2d1613a2f76065a248f7d585c374e93d50065f1a",
                 "shasum": ""
             },
             "require": {
@@ -46,9 +46,10 @@
                 "php",
                 "schema",
                 "sql",
-                "yaml"
+                "yaml",
+                "yasql"
             ],
-            "time": "2017-12-26T21:53:26+00:00"
+            "time": "2017-12-27T02:16:40+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -112,9 +113,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "aryelgois/yasql-php": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
