@@ -1,7 +1,7 @@
 {
     "name": "aryelgois/databases",
     "description": "Some useful databases for your projects",
-    "keywords": ["database", "mysql"],
+    "keywords": ["yasql", "database", "schema"],
     "license": "MIT",
     "authors": [
         {
@@ -10,11 +10,16 @@
         }
     ],
     "require": {
-        "php": "^7.0"
+        "php": "^7.0",
+        "aryelgois/yasql-php": "^0.2.0",
+        "symfony/yaml": "^3.4"
     },
     "autoload": {
         "psr-4": {
             "aryelgois\\Databases\\": "src/"
         }
+    },
+    "scripts": {
+        "yasql-builder" : "aryelgois\\YaSql\\Controller::build"
     }
 }

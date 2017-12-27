@@ -2,22 +2,40 @@
 
 ## (pt_BR)
 
-Alguns bancos de dados úteis para seus projetos.
+Alguns bancos de dados úteis para seus projetos. Compile os esquemas dos bancos
+de dados com [YASQL-PHP].
 
-Não é necessário instalar este pacote no seu projeto. Apenas clone o
-repositório, instale o composer localmente e execute os scripts e sql
-necessários. Deixei o composer preparado para se for necessário no futuro.
 
 ## (en_US)
 
-Some useful databases for your projects.
+Some useful databases for your projects. Build the database schemas with
+[YASQL-PHP].
 
-It is not necessary to install this package in your project. Just clone the
-repository, install composer locally and run the required scripts and sql.
-I prepared the composer file to if it's needed in the future.
 
-# List
+# Install
 
-Detailed documentation for each database is in english.
+Run in your project:
 
-- [Address](doc/address.md) _A database with every Country, State and County_
+`composer require aryelgois/databases`
+
+
+# Setup
+
+You can add the following to your builder config file, to have all databases
+available in this package.
+
+```yaml
+vendors:
+  aryelgois\databases: ~
+```
+
+
+# Databases
+
+See detailed documentation for each database:
+
+- [Address] _A database with every Country, State and County_
+
+
+[Address]: doc/address.md
+[YASQL-PHP]: https://github.com/aryelgois/yasql-php

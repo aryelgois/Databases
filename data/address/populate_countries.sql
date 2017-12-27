@@ -1,18 +1,10 @@
--- Address
---
--- A database with every Country, State and County.
 -- Help to include more countries and to keep this database updated
---
--- Remember to run create.sql before
---
--- @link https://www.github.com/aryelgois/Databases
-USE address;
-
-
--- Populating `countries` table
---
+-- Remember to create address.yml before
 -- You may change `name_local` for your use case and use `name_en` as a fallback
 
+--
+-- Populate `countries`
+--
 
 INSERT INTO `countries` (`id`, `code_a2`, `code_a3`, `code_number`, `name_en`, `name_local`) VALUES
 (1, 'AF', 'AFG', '004', 'Afghanistan', NULL),
@@ -268,4 +260,3 @@ INSERT INTO `countries` (`id`, `code_a2`, `code_a3`, `code_number`, `name_en`, `
 (247, 'YE', 'YEM', '887', 'Yemen', NULL),
 (248, 'ZM', 'ZMB', '894', 'Zambia', NULL),
 (249, 'ZW', 'ZWE', '716', 'Zimbabwe', NULL);
-
