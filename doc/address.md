@@ -1,108 +1,115 @@
 # Address
 
-A database with every Country, State and County.
+> A database with every Country, State and County.
 
 
-## Intro
+# Intro
 
-Build an address database with the countries you want. The index is
-automatically generated for you, and if wou want to add more countries later,
-you just need to give the last indexes and it will continue.
+Build an address database with the countries you want.
 
-I have simplified into country, state and county. I know.. it's not that simple,
+I have simplified into country, state and county. I know.. it's not just that,
 because there are countries which divide into different things.. but lets keep
-it simple, shall we? _If someone knows more generic names, please push request_
-
-The indexes are hardcoded to keep them imutable in your generated .sql and in
-your project. So, it's recomended to save a copy just in case.
+it simple. _If someone knows more generic names, please [pull request]_
 
 
-## Database in 3 steps
+## Database in 2 steps
 
-1. Run [create.sql][create] and [populate_countries.sql][countries] inside your
-   database server
-2. Generate a .sql populating the countries of your interest, as in the [example][example]
-3. Run the generated .sql in your server
+1. Build the database with `composer run-script yasql-builder -- build`
+2. Run the generated `build/address.sql` in your server
 
-
-## How to use
-
-Create a relational table in your project which links to counties table. With
-this information, you can find the state and the country.
-
-In your form, you can dynamically add `<select>`s for countries, states and
-counties.
+> It only applies if you clone this repository. For adding it in your own
+> project, see below.
 
 
-## Adding more countries
+# Adding in my project
 
-Create a new Address object with the desired countries and pass the last indexes
-in your database to the `output()` method.
+Require this package with Composer, create a config file for [YASQL-PHP] and add
+the following, then build your databases.
+
+```yaml
+vendors:
+  aryelgois\databases: ~
+```
 
 
-## Structure
+# How to use
 
-There are thre tables, one related to the other, making a chain.
+Create a table in your database with a one-to-many relation to `counties.id`.
+With this index, you can find the State and the Country.
+
+In a registration form for your application, you can dynamically fill `<select>`
+elements with Countries, States and counties.
 
 
-### Table countries
+# Structure
 
-The column `id` is what you use to reference the country, as it should imutable
-in your database. It could be a tinyint, but I prefered to keep smallint because
-it was too close to the limit.
+There are three tables, one related to the other, making a chain.
 
-The columns `code_a2`, `code_a3` and `code_number` follows the [ISO_3166-1][ISO_3166-1].
+
+## countries
+
+The column `id` is what you use to reference the country, as it must imutable in
+your project. It could be a `tinyint`, but I choose `smallint` because it was
+too close to the limit.
+
+> If any country change their name someday, or their code is changed, you just
+> need a patch to update your database. New builds would be already updated.
+
+The columns `code_a2`, `code_a3` and `code_number` follows the [ISO_3166-1].
 
 The column `name_local` is how you call the country, or how it is called in the
 actual country. Depends on your implementation, thats why it is NULL. `name_en`
 is a fallback and is already filled for you.
 
-> This is the only table already provided as .sql because it is short and easy
-> to maintain. Maybe, the `name_local` will be filled in the future.
+> This is the only table already provided as .sql because it is short and
+> relatively easy to maintain. Maybe, the `name_local` will be filled in the
+> future. Maybe it will also become a YAML.
 
 
-### Table states
+## states
 
-Here, `id` is an int, because there might be a lot of states in the world.
+Here, `id` is an `int`, because there might be a lot of States in the world.
 
-`country` references to the countries table.
+`country` references to the countries table (one-to-many).
 
-`code` should follow [ISO_3166-2][ISO_3166-2], but the subdivision name is
-simplified to just "state". The column allows up to 3 characters.
+`code` should follow [ISO_3166-2], but the subdivision name is simplified to
+just "state". The column allows up to 3 characters.
 
-`name` is the local name. _Should it be `name_en` and `name_local` as in
-countries? If is that so, the counties should as well.. but.. just so much work_
+`name` is the local name. *Should it be `name_en` and `name_local` as in
+countries? If is that so, the counties should as well.. but.. just so much work*
 
 
-### Table counties
+## counties
 
 `id` has the same idea as in states table.
 
-`state` references to the states table.
+`state` references to the states table, also one-to-many.
 
 `name` is the local name.
 
 Simple as that.
 
-
-## How it works
-
-There is already a database structure and the contents for countries table. But
-for each country, it is required a JSON listing every state and country, so the
-script can generate the .sql.
-
-This JSON contains the country `id` hardcoded (as it is in the [populating .sql][countries]),
-a update timestamp of when it was last modified, optional notes and the list of
-states and counties.
-
-In the generated .sql, the INSERT statements are divided into chunks, each with
-no more than 100 entries.
+Knowing the county id, you can find the State and the Country.
 
 
-## How you can help
+# How it works?
 
-Producing JSON files with all states and counties of different countries, so we
-can use more countries in the database.
+There is already a database schema and the contents for countries table. But
+for each country, it is required a YAML listing every state and country, so the
+script can generate a populating sql.
+
+This YAML contains the country `id` hardcoded (as it is in the
+[populate_countries.sql]) and sequences of states and counties.
+
+In the generated sql, the INSERT INTO statements are divided into chunks, each
+with no more than 100 entries.
+
+
+# How can I help?
+
+Write a YAML file for the another country in [source] and include it in the
+[config file]. Then build the database to see if it works, so you can
+[pull request] and we can use more countries in our databases.
 
 The following countries are ready for use:
 
@@ -110,15 +117,17 @@ update     | Alpha-2 | Country
 ----------:|:-------:|:-------
 2017-09-02 | BR      | Brazil
 
-## TODO
 
-- [ ] Clean up `output()`
+# TODO
+
 - [ ] Add more country sources
 - [ ] (Maybe) Add more tables
 
 
-[create]: ../data/Address/create.sql
-[countries]: ../data/Address/populate_countries.sql
-[example]: ../examples/address.php
+[source]: ../data/address/source
+[config file]: ../config/databases.yml
+[populate_countries.sql]: ../data/address/populate_countries.sql
+[pull request]: https://github.com/aryelgois/databases/pulls
+[YASQL-PHP]: https://github.com/aryelgois/yasql-php
 [ISO_3166-1]: https://en.wikipedia.org/wiki/ISO_3166-1
 [ISO_3166-2]: https://en.wikipedia.org/wiki/ISO_3166-2
