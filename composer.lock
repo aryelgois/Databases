@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c89f17e5f384d419972d626d0c165959",
+    "content-hash": "9a4c13f86517950fb5f22e4225e9d816",
     "packages": [
         {
             "name": "aryelgois/yasql-php",
-            "version": "v0.2",
+            "version": "v0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aryelgois/yasql-php.git",
-                "reference": "2d1613a2f76065a248f7d585c374e93d50065f1a"
+                "reference": "6ec9155cad40a1bf81822401ee4f325e0a0bc76e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aryelgois/yasql-php/zipball/2d1613a2f76065a248f7d585c374e93d50065f1a",
-                "reference": "2d1613a2f76065a248f7d585c374e93d50065f1a",
+                "url": "https://api.github.com/repos/aryelgois/yasql-php/zipball/6ec9155cad40a1bf81822401ee4f325e0a0bc76e",
+                "reference": "6ec9155cad40a1bf81822401ee4f325e0a0bc76e",
                 "shasum": ""
             },
             "require": {
@@ -49,20 +49,20 @@
                 "yaml",
                 "yasql"
             ],
-            "time": "2017-12-27T02:16:40+00:00"
+            "time": "2018-01-05T23:01:45+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "afe0cd38486505c9703707707d91450cfc1bd536"
+                "reference": "25c192f25721a74084272671f658797d9e0e0146"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/afe0cd38486505c9703707707d91450cfc1bd536",
-                "reference": "afe0cd38486505c9703707707d91450cfc1bd536",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/25c192f25721a74084272671f658797d9e0e0146",
+                "reference": "25c192f25721a74084272671f658797d9e0e0146",
                 "shasum": ""
             },
             "require": {
@@ -107,7 +107,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-11T20:38:23+00:00"
+            "time": "2018-01-03T07:37:34+00:00"
         }
     ],
     "packages-dev": [],
