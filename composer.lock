@@ -4,8 +4,89 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a4c13f86517950fb5f22e4225e9d816",
+    "content-hash": "faf74c7edc1e8f3460c5512050b086b8",
     "packages": [
+        {
+            "name": "aryelgois/medools",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aryelgois/Medools.git",
+                "reference": "f011521c1c8a092cb6042a0d72dc7b61db158968"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aryelgois/Medools/zipball/f011521c1c8a092cb6042a0d72dc7b61db158968",
+                "reference": "f011521c1c8a092cb6042a0d72dc7b61db158968",
+                "shasum": ""
+            },
+            "require": {
+                "aryelgois/utils": "^0.2",
+                "catfan/medoo": "^1.4",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "aryelgois\\Medools\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aryel Mota Góis",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Wrapper on catfan/Medoo",
+            "keywords": [
+                "database",
+                "medoo"
+            ],
+            "time": "2017-11-18T19:36:58+00:00"
+        },
+        {
+            "name": "aryelgois/utils",
+            "version": "v0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aryelgois/utils.git",
+                "reference": "dcd2d5bd5866e4feaa1ad1e1a83c9b4f4217c3b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aryelgois/utils/zipball/dcd2d5bd5866e4feaa1ad1e1a83c9b4f4217c3b0",
+                "reference": "dcd2d5bd5866e4feaa1ad1e1a83c9b4f4217c3b0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "aryelgois\\Utils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aryel Mota Góis",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Useful methods for not repeating myself",
+            "keywords": [
+                "utils"
+            ],
+            "time": "2017-11-19T12:27:56+00:00"
+        },
         {
             "name": "aryelgois/yasql-php",
             "version": "v0.3",
@@ -50,6 +131,65 @@
                 "yasql"
             ],
             "time": "2018-01-05T23:01:45+00:00"
+        },
+        {
+            "name": "catfan/medoo",
+            "version": "v1.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/catfan/Medoo.git",
+                "reference": "1aa25a4001e0cfb739ba2996f00f4a3d2a7fdf07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/1aa25a4001e0cfb739ba2996f00f4a3d2a7fdf07",
+                "reference": "1aa25a4001e0cfb739ba2996f00f4a3d2a7fdf07",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "ext-pdo_dblib": "For MSSQL or Sybase database on Linux/UNIX platform",
+                "ext-pdo_mysql": "For MySQL or MariaDB database",
+                "ext-pdo_oci": "For Oracle database",
+                "ext-pdo_oci8": "For Oracle version 8 database",
+                "ext-pdo_pqsql": "For PostgreSQL database",
+                "ext-pdo_sqlite": "For SQLite database",
+                "ext-pdo_sqlsrv": "For MSSQL database"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Medoo\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Angel Lai",
+                    "email": "angel@catfan.me"
+                }
+            ],
+            "description": "The lightest PHP database framework to accelerate development",
+            "homepage": "https://medoo.in",
+            "keywords": [
+                "database",
+                "lightweight",
+                "mariadb",
+                "mssql",
+                "mysql",
+                "oracle",
+                "php framework",
+                "postgresql",
+                "sql",
+                "sqlite"
+            ],
+            "time": "2017-12-25T17:02:41+00:00"
         },
         {
             "name": "symfony/yaml",
