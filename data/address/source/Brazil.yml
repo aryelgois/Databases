@@ -4,8 +4,7 @@
 
 country: 32
 states:
-  -
-    code: AC
+  - code: AC
     name: Acre
     counties:
       - Acrelândia
@@ -30,8 +29,7 @@ states:
       - Sena Madureira
       - Tarauacá
       - Xapuri
-  -
-    code: AL
+  - code: AL
     name: Alagoas
     counties:
       - Água Branca
@@ -136,8 +134,7 @@ states:
       - Traipu
       - União dos Palmares
       - Viçosa
-  -
-    code: AP
+  - code: AP
     name: Amapá
     counties:
       - Amapá
@@ -156,8 +153,7 @@ states:
       - Serra do Navio
       - Tartarugalzinho
       - Vitória do Jari
-  -
-    code: AM
+  - code: AM
     name: Amazonas
     counties:
       - Alvarães
@@ -222,8 +218,7 @@ states:
       - Uarini
       - Urucará
       - Urucurituba
-  -
-    code: BA
+  - code: BA
     name: Bahia
     counties:
       - Abaíra
@@ -643,8 +638,7 @@ states:
       - Wanderley
       - Wenceslau Guimarães
       - Xique-Xique
-  -
-    code: CE
+  - code: CE
     name: Ceará
     counties:
       - Abaiara
@@ -831,8 +825,7 @@ states:
       - Varjota
       - Várzea Alegre
       - Viçosa do Ceará
-  -
-    code: DF
+  - code: DF
     name: Distrito Federal
     counties:
       - Águas Claras
@@ -866,8 +859,7 @@ states:
       - Taguatinga
       - Varjão
       - Vicente Pires
-  -
-    code: ES
+  - code: ES
     name: Espírito Santo
     counties:
       - Afonso Cláudio
@@ -948,8 +940,7 @@ states:
       - Vila Valério
       - Vila Velha
       - Vitória
-  -
-    code: GO
+  - code: GO
     name: Goiás
     counties:
       - Abadia de Goiás
@@ -1198,8 +1189,7 @@ states:
       - Vicentinópolis
       - Vila Boa
       - Vila Propício
-  -
-    code: MA
+  - code: MA
     name: Maranhão
     counties:
       - Açailândia
@@ -1419,8 +1409,7 @@ states:
       - Vitória do Mearim
       - Vitorino Freire
       - Zé Doca
-  -
-    code: MT
+  - code: MT
     name: Mato Grosso
     counties:
       - Acorizal
@@ -1564,8 +1553,7 @@ states:
       - Vera
       - Vila Bela da Santíssima Trindade
       - Vila Rica
-  -
-    code: MS
+  - code: MS
     name: Mato Grosso do Sul
     counties:
       - Água Clara
@@ -1647,8 +1635,7 @@ states:
       - Terenos
       - Três Lagoas
       - Vicentina
-  -
-    code: MG
+  - code: MG
     name: Minas Gerais
     counties:
       - Abadia dos Dourados
@@ -2504,8 +2491,7 @@ states:
       - Visconde do Rio Branco
       - Volta Grande
       - Wenceslau Braz
-  -
-    code: PA
+  - code: PA
     name: Pará
     counties:
       - Abaetetuba
@@ -2652,8 +2638,7 @@ states:
       - Viseu
       - Vitória do Xingu
       - Xinguara
-  -
-    code: PB
+  - code: PB
     name: Paraíba
     counties:
       - Água Branca
@@ -2879,8 +2864,7 @@ states:
       - Vieirópolis
       - Vista Serrana
       - Zabelê
-  -
-    code: PR
+  - code: PR
     name: Paraná
     counties:
       - Abatiá
@@ -3282,8 +3266,7 @@ states:
       - Vitorino
       - Wenceslau Braz
       - Xambrê
-  -
-    code: PE
+  - code: PE
     name: Pernambuco
     counties:
       - Abreu e Lima
@@ -3471,8 +3454,7 @@ states:
       - Vicência
       - Vitória de Santo Antão
       - Xexéu
-  -
-    code: PI
+  - code: PI
     name: Piauí
     counties:
       - Acauã
@@ -3699,8 +3681,7 @@ states:
       - Vera Mendes
       - Vila Nova do Piauí
       - Wall Ferraz
-  -
-    code: RJ
+  - code: RJ
     name: Rio de Janeiro
     counties:
       - Angra dos Reis
@@ -3795,8 +3776,7 @@ states:
       - Varre-Sai
       - Vassouras
       - Volta Redonda
-  -
-    code: RN
+  - code: RN
     name: Rio Grande do Norte
     counties:
       - Acari
@@ -3966,8 +3946,7 @@ states:
       - Vera Cruz
       - Viçosa
       - Vila Flor
-  -
-    code: RS
+  - code: RS
     name: Rio Grande do Sul
     counties:
       - Aceguá
@@ -4467,8 +4446,7 @@ states:
       - Vitória das Missões
       - Westfália
       - Xangri-lá
-  -
-    code: RO
+  - code: RO
     name: Rondônia
     counties:
       - Alta Floresta d'Oeste
@@ -4523,8 +4501,7 @@ states:
       - Vale do Anari
       - Vale do Paraíso
       - Vilhena
-  -
-    code: RR
+  - code: RR
     name: Roraima
     counties:
       - Alto Alegre
@@ -4542,8 +4519,7 @@ states:
       - São João da Baliza
       - São Luís
       - Uiramutã
-  -
-    code: SC
+  - code: SC
     name: Santa Catarina
     counties:
       - Abdon Batista
@@ -4841,8 +4817,7 @@ states:
       - Xavantina
       - Xaxim
       - Zortéa
-  -
-    code: SP
+  - code: SP
     name: São Paulo
     counties:
       - Adamantina
@@ -5490,8 +5465,7 @@ states:
       - Votorantim
       - Votuporanga
       - Zacarias
-  -
-    code: SE
+  - code: SE
     name: Sergipe
     counties:
       - Amparo de São Francisco
@@ -5569,8 +5543,7 @@ states:
       - Tobias Barreto
       - Tomar do Geru
       - Umbaúba
-  -
-    code: TO
+  - code: TO
     name: Tocantins
     counties:
       - Abreulândia

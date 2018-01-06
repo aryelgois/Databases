@@ -1,6 +1,6 @@
 <?php
 /**
- * This Software is part of aryelgois/Databases and is provided "as is".
+ * This Software is part of aryelgois/databases and is provided "as is".
  *
  * @see LICENSE
  */
@@ -15,7 +15,7 @@ use aryelgois\YaSql\Utils;
  *
  * @author Aryel Mota Góis
  * @license MIT
- * @link https://www.github.com/aryelgois/Databases
+ * @link https://www.github.com/aryelgois/databases
  */
 class AddressPopulator extends Populator
 {
@@ -55,47 +55,40 @@ class AddressPopulator extends Populator
             $state_names[$id_states] = $state['name'];
         }
 
-        $states = array_chunk($states, self::CHUNK_SIZE);
-        $states_sql = [];
-        foreach ($states as $chunk) {
-            $states_sql = array_merge(
-                $states_sql,
-                [
-                    '',
-                    'INSERT INTO `states` (`id`, `country`, `code`, `name`) VALUES',
-                ],
-                Utils::arrayAppendLast($chunk, ';', ',')
-            );
-        }
-
-        $counties_sql = [];
-        foreach ($counties as $id => $block) {
-            $counties_sql = array_merge(
-                $counties_sql,
-                [
-                    '',
-                    '-- ' . $state_names[$id],
-                ]
-            );
-            $chunks = array_chunk($block, self::CHUNK_SIZE);
-            foreach ($chunks as $chunk) {
-                $counties_sql = array_merge(
-                    $counties_sql,
-                    [
-                        '',
-                        'INSERT INTO `counties` (`id`, `state`, `name`) VALUES',
-                    ],
-                    Utils::arrayAppendLast($chunk, ';', ',')
-                );
-            }
-        }
-
         $count = count($this->data['states']);
+        $states_sql = "-- $count State" . ($count > 1 ? 's' : '') . ":\n\n"
+            . self::generateChunks(
+                'INSERT INTO `states` (`id`, `country`, `code`, `name`) VALUES',
+                $states
+            );
 
-        return implode("\n", array_merge(
-            ['-- ' . $count . ' State'. ($count > 1 ? 's' : '') . ':'],
-            $states_sql,
-            $counties_sql
-        ));
+        $counties_sql = '';
+        foreach ($counties as $id => $block) {
+            $counties_sql .= "-- $state_names[$id]\n\n"
+                . self::generateChunks(
+                    'INSERT INTO `counties` (`id`, `state`, `name`) VALUES',
+                    $block
+                );
+        }
+
+        return $states_sql . $counties_sql;
+    }
+
+    /**
+     * Generates chunks of entries with the same statement
+     *
+     * @param string   $stmt    SQL statement
+     * @param string[] $entries Entries to work on
+     *
+     * @return string
+     */
+    protected function generateChunks(string $stmt, array $entries)
+    {
+        $result = '';
+        foreach (array_chunk($entries, self::CHUNK_SIZE) as $chunk) {
+            $result .= $stmt . "\n"
+                . implode("\n", Utils::arrayAppendLast($chunk, ";\n\n", ','));
+        }
+        return $result;
     }
 }

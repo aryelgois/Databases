@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.0",
-        "aryelgois/yasql-php": "^0.2.0",
+        "aryelgois/yasql-php": "~0.3",
         "symfony/yaml": "^3.4"
     },
     "autoload": {
@@ -20,6 +20,7 @@
         }
     },
     "scripts": {
-        "yasql-builder" : "aryelgois\\YaSql\\Controller::build"
+        "yasql-build": "aryelgois\\YaSql\\Composer::build",
+        "yasql-generate": "aryelgois\\YaSql\\Composer::generate"
     }
 }
