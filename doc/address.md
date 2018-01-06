@@ -127,7 +127,10 @@ update     | Alpha-2 | Country
 [source]: ../data/address/source
 [config file]: ../config/databases.yml
 [populate_countries.sql]: ../data/address/populate_countries.sql
+
 [pull request]: https://github.com/aryelgois/databases/pulls
+
 [YASQL-PHP]: https://github.com/aryelgois/yasql-php
+
 [ISO_3166-1]: https://en.wikipedia.org/wiki/ISO_3166-1
 [ISO_3166-2]: https://en.wikipedia.org/wiki/ISO_3166-2
