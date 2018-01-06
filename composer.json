@@ -1,7 +1,7 @@
 {
     "name": "aryelgois/databases",
     "description": "Some useful databases for your projects",
-    "keywords": ["yasql", "database", "schema"],
+    "keywords": ["yasql", "database", "schema", "medools"],
     "license": "MIT",
     "authors": [
         {
