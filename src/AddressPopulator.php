@@ -1,6 +1,6 @@
 <?php
 /**
- * This Software is part of aryelgois/Databases and is provided "as is".
+ * This Software is part of aryelgois/databases and is provided "as is".
  *
  * @see LICENSE
  */
@@ -15,7 +15,7 @@ use aryelgois\YaSql\Utils;
  *
  * @author Aryel Mota Góis
  * @license MIT
- * @link https://www.github.com/aryelgois/Databases
+ * @link https://www.github.com/aryelgois/databases
  */
 class AddressPopulator extends Populator
 {
