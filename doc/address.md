@@ -41,6 +41,27 @@ In a registration form for your application, you can dynamically fill `<select>`
 elements with Countries, States and counties.
 
 
+## Medools Models
+
+It is provided models for this database tables, under the namespace
+`aryelgois\Databases\Models\Address`.
+
+So, in your application, load the Medools config file, then create objects from
+the classes in this namespace to use them.
+
+They are `READ_ONLY` because this database is populated during build time, thus
+you will focus in the `dump()` and `load()` methods:
+
+- `dump()`: return an array of rows in the database (you can filter for example
+  all counties of a specific State)
+- `load()`: access the data in a specific row (foreigns included). When creating
+  a new object with an argument, this method is called
+
+If you wish to insert rows into the database using these models, you will have
+to extend them to change the `READ_ONLY` configuration to `false`, and also
+update the `FOREIGN_KEYS`.
+
+
 # Structure
 
 There are three tables, one related to the other, making a chain.
