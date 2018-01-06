@@ -14,7 +14,7 @@ it simple. _If someone knows more generic names, please [pull request]_
 
 ## Database in 2 steps
 
-1. Build the database with `composer run-script yasql-builder -- build`
+1. Build the database with `composer run-script yasql-build -- build`
 2. Run the generated `build/address.sql` in your server
 
 > It only applies if you clone this repository. For adding it in your own
