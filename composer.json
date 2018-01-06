@@ -1,7 +1,7 @@
 {
     "name": "aryelgois/databases",
     "description": "Some useful databases for your projects",
-    "keywords": ["yasql", "database", "schema"],
+    "keywords": ["yasql", "database", "schema", "medools"],
     "license": "MIT",
     "authors": [
         {
@@ -12,6 +12,7 @@
     "require": {
         "php": "^7.0",
         "aryelgois/yasql-php": "~0.3",
+        "aryelgois/Medools": "^2.0",
         "symfony/yaml": "^3.4"
     },
     "autoload": {
