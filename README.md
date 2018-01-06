@@ -32,7 +32,7 @@ databases available in this package.
 
 ```yaml
 vendors:
-  aryelgois\databases: ~
+  aryelgois/databases: ~
 ```
 
 
