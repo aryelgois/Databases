@@ -4,26 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "faf74c7edc1e8f3460c5512050b086b8",
+    "content-hash": "008008d5595422675c1511a95bf118b7",
     "packages": [
         {
             "name": "aryelgois/medools",
-            "version": "v2.0",
+            "version": "v2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aryelgois/Medools.git",
-                "reference": "f011521c1c8a092cb6042a0d72dc7b61db158968"
+                "reference": "44f15949ec0a8a762170fa6d5d83e5bca2b2636e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aryelgois/Medools/zipball/f011521c1c8a092cb6042a0d72dc7b61db158968",
-                "reference": "f011521c1c8a092cb6042a0d72dc7b61db158968",
+                "url": "https://api.github.com/repos/aryelgois/Medools/zipball/44f15949ec0a8a762170fa6d5d83e5bca2b2636e",
+                "reference": "44f15949ec0a8a762170fa6d5d83e5bca2b2636e",
                 "shasum": ""
             },
             "require": {
                 "aryelgois/utils": "^0.2",
                 "catfan/medoo": "^1.4",
                 "php": "^7.0"
+            },
+            "suggest": {
+                "aryelgois/databases": "For replacing classes in namespace aryelgois\\Medools\\Models\\Address",
+                "aryelgois/yasql-php": "For creating database schemas"
             },
             "type": "library",
             "autoload": {
@@ -44,9 +48,10 @@
             "description": "Wrapper on catfan/Medoo",
             "keywords": [
                 "database",
-                "medoo"
+                "medoo",
+                "medools"
             ],
-            "time": "2017-11-18T19:36:58+00:00"
+            "time": "2018-01-06T13:08:33+00:00"
         },
         {
             "name": "aryelgois/utils",
@@ -89,16 +94,16 @@
         },
         {
             "name": "aryelgois/yasql-php",
-            "version": "v0.3",
+            "version": "v0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aryelgois/yasql-php.git",
-                "reference": "6ec9155cad40a1bf81822401ee4f325e0a0bc76e"
+                "reference": "c32b1c130bdd9d0c10db5c97b4412744b6d49463"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aryelgois/yasql-php/zipball/6ec9155cad40a1bf81822401ee4f325e0a0bc76e",
-                "reference": "6ec9155cad40a1bf81822401ee4f325e0a0bc76e",
+                "url": "https://api.github.com/repos/aryelgois/yasql-php/zipball/c32b1c130bdd9d0c10db5c97b4412744b6d49463",
+                "reference": "c32b1c130bdd9d0c10db5c97b4412744b6d49463",
                 "shasum": ""
             },
             "require": {
@@ -130,7 +135,7 @@
                 "yaml",
                 "yasql"
             ],
-            "time": "2018-01-05T23:01:45+00:00"
+            "time": "2018-01-06T01:40:38+00:00"
         },
         {
             "name": "catfan/medoo",
