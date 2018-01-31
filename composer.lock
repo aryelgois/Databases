@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e56f1db69b5d6c521f932ce7ac1969b",
+    "content-hash": "db55aa8c4e0ccb73de60eecb581b6afc",
     "packages": [
         {
             "name": "aryelgois/medools",
-            "version": "v3.0-alpha",
+            "version": "v3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aryelgois/Medools.git",
-                "reference": "9389639008f749d80236931f809ee81ef09510b0"
+                "reference": "e3eb5f4742d4e4b460080d5860d236ffde9bf3b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aryelgois/Medools/zipball/9389639008f749d80236931f809ee81ef09510b0",
-                "reference": "9389639008f749d80236931f809ee81ef09510b0",
+                "url": "https://api.github.com/repos/aryelgois/Medools/zipball/e3eb5f4742d4e4b460080d5860d236ffde9bf3b0",
+                "reference": "e3eb5f4742d4e4b460080d5860d236ffde9bf3b0",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "medoo",
                 "medools"
             ],
-            "time": "2018-01-31T19:10:29+00:00"
+            "time": "2018-01-31T19:55:59+00:00"
         },
         {
             "name": "aryelgois/utils",
@@ -258,9 +258,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "aryelgois/medools": 15
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
