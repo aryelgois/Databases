@@ -18,7 +18,7 @@ use aryelgois\Medools;
  */
 class County extends Medools\Model
 {
-    const DATABASE_NAME_KEY = 'address';
+    const DATABASE = 'address';
 
     const TABLE = 'counties';
 
