@@ -38,6 +38,10 @@ class FullAddress extends Medools\Model
         'update'
     ];
 
+    const STAMP_COLUMNS = [
+        'update' => 'auto',
+    ];
+
     const OPTIONAL_COLUMNS = [
         'detail',
         'update',
