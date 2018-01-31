@@ -28,7 +28,7 @@ the following, then build your databases.
 
 ```yaml
 vendors:
-  aryelgois\databases: ~
+  aryelgois/databases: ~
 ```
 
 
