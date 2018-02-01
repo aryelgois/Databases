@@ -49,7 +49,7 @@ class FullAddress extends Medools\Model
 
     const FOREIGN_KEYS = [
         'county' => [
-            __NAMESPACE__ . '\County',
+            __NAMESPACE__ . '\\County',
             'id'
         ],
     ];

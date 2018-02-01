@@ -26,7 +26,7 @@ class State extends Medools\Model
 
     const FOREIGN_KEYS = [
         'country' => [
-            __NAMESPACE__ . '\Country',
+            __NAMESPACE__ . '\\Country',
             'id'
         ],
     ];
