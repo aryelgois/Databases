@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.0",
-        "aryelgois/yasql-php": "^0.3",
+        "aryelgois/yasql-php": "0.4.0-alpha",
         "aryelgois/Medools": "^3.0",
         "symfony/yaml": "^3.4"
     },

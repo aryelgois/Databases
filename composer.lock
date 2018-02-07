@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "db55aa8c4e0ccb73de60eecb581b6afc",
+    "content-hash": "bc6fb903525f19a85cdbf217bbad59ec",
     "packages": [
         {
             "name": "aryelgois/medools",
@@ -94,16 +94,16 @@
         },
         {
             "name": "aryelgois/yasql-php",
-            "version": "v0.3.1",
+            "version": "v0.4.0-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aryelgois/yasql-php.git",
-                "reference": "c32b1c130bdd9d0c10db5c97b4412744b6d49463"
+                "reference": "9de3454272b3c0d49d9c9acce8b479b3dadc786b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aryelgois/yasql-php/zipball/c32b1c130bdd9d0c10db5c97b4412744b6d49463",
-                "reference": "c32b1c130bdd9d0c10db5c97b4412744b6d49463",
+                "url": "https://api.github.com/repos/aryelgois/yasql-php/zipball/9de3454272b3c0d49d9c9acce8b479b3dadc786b",
+                "reference": "9de3454272b3c0d49d9c9acce8b479b3dadc786b",
                 "shasum": ""
             },
             "require": {
@@ -135,7 +135,7 @@
                 "yaml",
                 "yasql"
             ],
-            "time": "2018-01-06T01:40:38+00:00"
+            "time": "2018-02-07T22:23:30+00:00"
         },
         {
             "name": "catfan/medoo",
@@ -258,7 +258,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "aryelgois/yasql-php": 15
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
