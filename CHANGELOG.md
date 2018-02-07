@@ -13,12 +13,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 ### Changed
+- [aryelgois/yasql-php] version
 
 ### Deprecated
 
 ### Removed
 
 ### Fixed
+- Escape backslashes
+- Databases paths
 
 ### Security
 
