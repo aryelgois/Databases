@@ -26,7 +26,7 @@ class County extends Medools\Model
 
     const FOREIGN_KEYS = [
         'state' => [
-            __NAMESPACE__ . '\State',
+            __NAMESPACE__ . '\\State',
             'id'
         ],
     ];
