@@ -10,20 +10,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-### Added
+
+## [0.4.0] - 2018-02-07
 
 ### Changed
 - [aryelgois/yasql-php] version
 
-### Deprecated
-
-### Removed
-
 ### Fixed
 - Escape backslashes
 - Databases paths
-
-### Security
 
 
 ## [0.3.2] - 2018-01-31
@@ -97,7 +92,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - DocBlocks
 
 
-[Unreleased]: https://github.com/aryelgois/databases/compare/v0.3.2...develop
+[Unreleased]: https://github.com/aryelgois/databases/compare/v0.4.0...develop
+[0.4.0]: https://github.com/aryelgois/databases/compare/v0.3.2...v0.4.0
 [0.3.2]: https://github.com/aryelgois/databases/compare/v0.3.1...v0.3.2
 [0.3.1]: https://github.com/aryelgois/databases/compare/v0.3...v0.3.1
 [0.3]: https://github.com/aryelgois/databases/compare/v0.2...v0.3
