@@ -139,7 +139,7 @@ The following countries are ready for use:
 
 update     | Alpha-2 | Country
 ----------:|:-------:|:-------
-2017-09-02 | BR      | Brazil
+2018-02-17 | BR      | Brazil
 
 
 # TODO
