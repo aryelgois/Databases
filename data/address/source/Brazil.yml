@@ -25,8 +25,8 @@ states:
       - Rio Branco
       - Rodrigues Alves
       - Santa Rosa do Purus
-      - Senador Guiomard
       - Sena Madureira
+      - Senador Guiomard
       - Tarauacá
       - Xapuri
   - code: AL
@@ -80,11 +80,11 @@ states:
       - Limoeiro de Anadia
       - Maceió
       - Major Isidoro
+      - Mar Vermelho
       - Maragogi
       - Maravilha
       - Marechal Deodoro
       - Maribondo
-      - Mar Vermelho
       - Mata Grande
       - Matriz de Camaragibe
       - Messias
@@ -260,8 +260,8 @@ states:
       - Barra do Rocha
       - Barreiras
       - Barro Alto
-      - Barrocas
       - Barro Preto
+      - Barrocas
       - Belmonte
       - Belo Campo
       - Biritinga
@@ -562,13 +562,13 @@ states:
       - Santa Cruz Cabrália
       - Santa Cruz da Vitória
       - Santa Inês
-      - Santaluz
       - Santa Luzia
       - Santa Maria da Vitória
-      - Santana
-      - Santanópolis
       - Santa Rita de Cássia
       - Santa Teresinha
+      - Santaluz
+      - Santana
+      - Santanópolis
       - Santo Amaro
       - Santo Antônio de Jesus
       - Santo Estêvão
@@ -798,9 +798,9 @@ states:
       - Russas
       - Saboeiro
       - Salitre
+      - Santa Quitéria
       - Santana do Acaraú
       - Santana do Cariri
-      - Santa Quitéria
       - São Benedito
       - São Gonçalo do Amarante
       - São João do Jaguaribe
@@ -1219,8 +1219,8 @@ states:
       - Barão de Grajaú
       - Barra do Corda
       - Barreirinhas
-      - Belágua
       - Bela Vista do Maranhão
+      - Belágua
       - Benedito Leite
       - Bequimão
       - Bernardo do Mearim
@@ -1290,12 +1290,12 @@ states:
       - João Lisboa
       - Joselândia
       - Junco do Maranhão
-      - Lagoa do Mato
-      - Lagoa Grande do Maranhão
       - Lago da Pedra
       - Lago do Junco
       - Lago dos Rodrigues
       - Lago Verde
+      - Lagoa do Mato
+      - Lagoa Grande do Maranhão
       - Lajeado Novo
       - Lima Campos
       - Loreto
@@ -1357,9 +1357,9 @@ states:
       - Santa Inês
       - Santa Luzia
       - Santa Luzia do Paruá
-      - Santana do Maranhão
       - Santa Quitéria do Maranhão
       - Santa Rita
+      - Santana do Maranhão
       - Santo Amaro do Maranhão
       - Santo Antônio dos Lopes
       - São Benedito do Rio Preto
@@ -1434,8 +1434,8 @@ states:
       - Cáceres
       - Campinápolis
       - Campo Novo do Parecis
-      - Campos de Júlio
       - Campo Verde
+      - Campos de Júlio
       - Canabrava do Norte
       - Canarana
       - Carlinda
@@ -1534,8 +1534,8 @@ states:
       - São Félix do Araguaia
       - São José do Povo
       - São José do Rio Claro
-      - São José dos Quatro Marcos
       - São José do Xingu
+      - São José dos Quatro Marcos
       - São Pedro da Cipa
       - Sapezal
       - Serra Nova Dourada
@@ -1729,10 +1729,10 @@ states:
       - Borda da Mata
       - Botelhos
       - Botumirim
+      - Brás Pires
       - Brasilândia de Minas
       - Brasília de Minas
       - Brasópolis
-      - Brás Pires
       - Braúnas
       - Brumadinho
       - Bueno Brandão
@@ -1765,9 +1765,9 @@ states:
       - Campo Florido
       - Campos Altos
       - Campos Gerais
+      - Cana Verde
       - Canaã
       - Canápolis
-      - Cana Verde
       - Candeias
       - Cantagalo
       - Caparaó
@@ -1934,8 +1934,8 @@ states:
       - Fortuna de Minas
       - Francisco Badaró
       - Francisco Dumont
-      - Franciscópolis
       - Francisco Sá
+      - Franciscópolis
       - Frei Gaspar
       - Frei Inocêncio
       - Frei Lagonegro
@@ -2053,8 +2053,8 @@ states:
       - Joaquim Felício
       - Jordânia
       - José Gonçalves de Minas
-      - Josenópolis
       - José Raydan
+      - Josenópolis
       - Juatuba
       - Juiz de Fora
       - Juramento
@@ -2094,8 +2094,8 @@ states:
       - Manhuaçu
       - Manhumirim
       - Mantena
-      - Maravilhas
       - Mar de Espanha
+      - Maravilhas
       - Maria da Fé
       - Mariana
       - Marilac
@@ -2137,8 +2137,8 @@ states:
       - Monte Carmelo
       - Monte Formoso
       - Monte Santo de Minas
-      - Montes Claros
       - Monte Sião
+      - Montes Claros
       - Montezuma
       - Morada Nova de Minas
       - Morro da Garça
@@ -2181,22 +2181,22 @@ states:
       - Ouro Verde de Minas
       - Padre Carvalho
       - Padre Paraíso
+      - Pai Pedro
       - Paineiras
       - Pains
-      - Pai Pedro
       - Paiva
       - Palma
       - Palmópolis
       - Papagaios
-      - Paracatu
       - Pará de Minas
+      - Paracatu
       - Paraguaçu
       - Paraisópolis
       - Paraopeba
-      - Passabém
-      - Passa-Quatro
       - Passa Tempo
+      - Passa-Quatro
       - Passa-Vinte
+      - Passabém
       - Passos
       - Patis
       - Patos de Minas
@@ -2278,8 +2278,8 @@ states:
       - Ribeirão Vermelho
       - Rio Acima
       - Rio Casca
-      - Rio Doce
       - Rio do Prado
+      - Rio Doce
       - Rio Espera
       - Rio Manso
       - Rio Novo
@@ -2317,6 +2317,14 @@ states:
       - Santa Maria de Itabira
       - Santa Maria do Salto
       - Santa Maria do Suaçuí
+      - Santa Rita de Caldas
+      - Santa Rita de Ibitipoca
+      - Santa Rita de Jacutinga
+      - Santa Rita de Minas
+      - Santa Rita do Itueto
+      - Santa Rita do Sapucaí
+      - Santa Rosa da Serra
+      - Santa Vitória
       - Santana da Vargem
       - Santana de Cataguases
       - Santana de Pirapama
@@ -2327,14 +2335,6 @@ states:
       - Santana do Paraíso
       - Santana do Riacho
       - Santana dos Montes
-      - Santa Rita de Caldas
-      - Santa Rita de Ibitipoca
-      - Santa Rita de Jacutinga
-      - Santa Rita de Minas
-      - Santa Rita do Itueto
-      - Santa Rita do Sapucaí
-      - Santa Rosa da Serra
-      - Santa Vitória
       - Santo Antônio do Amparo
       - Santo Antônio do Aventureiro
       - Santo Antônio do Grama
@@ -2389,8 +2389,8 @@ states:
       - São Lourenço
       - São Miguel do Anta
       - São Pedro da União
-      - São Pedro dos Ferros
       - São Pedro do Suaçuí
+      - São Pedro dos Ferros
       - São Romão
       - São Roque de Minas
       - São Sebastião da Bela Vista
@@ -2421,8 +2421,8 @@ states:
       - Seritinga
       - Serra Azul de Minas
       - Serra da Saudade
-      - Serra dos Aimorés
       - Serra do Salitre
+      - Serra dos Aimorés
       - Serrania
       - Serranópolis de Minas
       - Serranos
@@ -2662,8 +2662,8 @@ states:
       - Baía da Traição
       - Bananeiras
       - Baraúna
-      - Barra de Santana
       - Barra de Santa Rosa
+      - Barra de Santana
       - Barra de São Miguel
       - Bayeux
       - Belém
@@ -2811,10 +2811,10 @@ states:
       - Santa Helena
       - Santa Inês
       - Santa Luzia
-      - Santana de Mangueira
-      - Santana dos Garrotes
       - Santa Rita
       - Santa Teresinha
+      - Santana de Mangueira
+      - Santana dos Garrotes
       - Santo André
       - São Bento
       - São Bento de Pombal
@@ -2872,10 +2872,10 @@ states:
       - Agudos do Sul
       - Almirante Tamandaré
       - Altamira do Paraná
-      - Altônia
       - Alto Paraíso
       - Alto Paraná
       - Alto Piquiri
+      - Altônia
       - Alvorada do Sul
       - Amaporã
       - Ampére
@@ -2898,8 +2898,8 @@ states:
       - Balsa Nova
       - Bandeirantes
       - Barbosa Ferraz
-      - Barracão
       - Barra do Jacaré
+      - Barracão
       - Bela Vista da Caroba
       - Bela Vista do Paraíso
       - Bituruna
@@ -2956,10 +2956,10 @@ states:
       - Coronel Domingos Soares
       - Coronel Vivida
       - Corumbataí do Sul
+      - Cruz Machado
       - Cruzeiro do Iguaçu
       - Cruzeiro do Oeste
       - Cruzeiro do Sul
-      - Cruz Machado
       - Cruzmaltina
       - Curitiba
       - Curiúva
@@ -2981,8 +2981,8 @@ states:
       - Fênix
       - Fernandes Pinheiro
       - Figueira
-      - Floraí
       - Flor da Serra do Sul
+      - Floraí
       - Floresta
       - Florestópolis
       - Flórida
@@ -3134,8 +3134,8 @@ states:
       - Pérola d'Oeste
       - Piên
       - Pinhais
-      - Pinhalão
       - Pinhal de São Bento
+      - Pinhalão
       - Pinhão
       - Piraí do Sul
       - Piraquara
@@ -3199,9 +3199,9 @@ states:
       - Santa Maria do Oeste
       - Santa Mariana
       - Santa Mônica
-      - Santana do Itararé
       - Santa Tereza do Oeste
       - Santa Terezinha de Itaipu
+      - Santana do Itararé
       - Santo Antônio da Platina
       - Santo Antônio do Caiuá
       - Santo Antônio do Paraíso
@@ -3526,13 +3526,13 @@ states:
       - Cristino Castro
       - Curimatá
       - Currais
-      - Curralinhos
       - Curral Novo do Piauí
+      - Curralinhos
       - Demerval Lobão
       - Dirceu Arcoverde
       - Dom Expedito Lopes
-      - Domingos Mourão
       - Dom Inocêncio
+      - Domingos Mourão
       - Elesbão Veloso
       - Eliseu Martins
       - Esperantina
@@ -3635,8 +3635,8 @@ states:
       - Santa Cruz dos Milagres
       - Santa Filomena
       - Santa Luz
-      - Santana do Piauí
       - Santa Rosa do Piauí
+      - Santana do Piauí
       - Santo Antônio de Lisboa
       - Santo Antônio dos Milagres
       - Santo Inácio do Piauí
@@ -3972,8 +3972,8 @@ states:
       - Arroio do Meio
       - Arroio do Padre
       - Arroio do Sal
-      - Arroio dos Ratos
       - Arroio do Tigre
+      - Arroio dos Ratos
       - Arroio Grande
       - Arvorezinha
       - Augusto Pestana
@@ -3983,12 +3983,12 @@ states:
       - Barão
       - Barão de Cotegipe
       - Barão do Triunfo
-      - Barracão
       - Barra do Guarita
       - Barra do Quaraí
       - Barra do Ribeiro
       - Barra do Rio Azul
       - Barra Funda
+      - Barracão
       - Barros Cassal
       - Benjamin Constant do Sul
       - Bento Gonçalves
@@ -4178,8 +4178,8 @@ states:
       - Júlio de Castilhos
       - Lagoa Bonita do Sul
       - Lagoa dos Três Cantos
-      - Lagoão
       - Lagoa Vermelha
+      - Lagoão
       - Lajeado
       - Lajeado do Bugre
       - Lavras do Sul
@@ -4316,11 +4316,11 @@ states:
       - Santa Margarida do Sul
       - Santa Maria
       - Santa Maria do Herval
-      - Santana da Boa Vista
-      - Santana do Livramento
       - Santa Rosa
       - Santa Tereza
       - Santa Vitória do Palmar
+      - Santana da Boa Vista
+      - Santana do Livramento
       - Santiago
       - Santo Ângelo
       - Santo Antônio da Patrulha
@@ -4345,8 +4345,8 @@ states:
       - São José do Inhacorá
       - São José do Norte
       - São José do Ouro
-      - São José dos Ausentes
       - São José do Sul
+      - São José dos Ausentes
       - São Leopoldo
       - São Lourenço do Sul
       - São Luiz Gonzaga
@@ -4562,11 +4562,11 @@ states:
       - Biguaçu
       - Blumenau
       - Bocaina do Sul
-      - Bombinhas
       - Bom Jardim da Serra
       - Bom Jesus
       - Bom Jesus do Oeste
       - Bom Retiro
+      - Bombinhas
       - Botuverá
       - Braço do Norte
       - Braço do Trombudo
@@ -4739,8 +4739,8 @@ states:
       - Rio das Antas
       - Rio do Campo
       - Rio do Oeste
-      - Rio dos Cedros
       - Rio do Sul
+      - Rio dos Cedros
       - Rio Fortuna
       - Rio Negrinho
       - Rio Rufino
@@ -4999,8 +4999,8 @@ states:
       - Estrela do Norte
       - Euclides da Cunha Paulista
       - Fartura
-      - Fernandópolis
       - Fernando Prestes
+      - Fernandópolis
       - Fernão
       - Ferraz de Vasconcelos
       - Flora Rica
@@ -5054,9 +5054,9 @@ states:
       - Igarapava
       - Igaratá
       - Iguape
-      - Ilhabela
       - Ilha Comprida
       - Ilha Solteira
+      - Ilhabela
       - Indaiatuba
       - Indiana
       - Indiaporã
@@ -5158,8 +5158,8 @@ states:
       - Mesópolis
       - Miguelópolis
       - Mineiros do Tietê
-      - Miracatu
       - Mira Estrela
+      - Miracatu
       - Mirandópolis
       - Mirante do Paranapanema
       - Mirassol
@@ -5176,8 +5176,8 @@ states:
       - Monte Aprazível
       - Monte Azul Paulista
       - Monte Castelo
-      - Monteiro Lobato
       - Monte Mor
+      - Monteiro Lobato
       - Morro Agudo
       - Morungaba
       - Motuca
@@ -5197,9 +5197,9 @@ states:
       - Nova Granada
       - Nova Guataporanga
       - Nova Independência
-      - Novais
       - Nova Luzitânia
       - Nova Odessa
+      - Novais
       - Novo Horizonte
       - Nuporanga
       - Ocauçu
@@ -5213,8 +5213,8 @@ states:
       - Oscar Bressane
       - Osvaldo Cruz
       - Ourinhos
-      - Ouroeste
       - Ouro Verde
+      - Ouroeste
       - Pacaembu
       - Palestina
       - Palmares Paulista
@@ -5305,8 +5305,8 @@ states:
       - Ribeirão Bonito
       - Ribeirão Branco
       - Ribeirão Corrente
-      - Ribeirão dos Índios
       - Ribeirão do Sul
+      - Ribeirão dos Índios
       - Ribeirão Grande
       - Ribeirão Pires
       - Ribeirão Preto
@@ -5349,12 +5349,12 @@ states:
       - Santa Lúcia
       - Santa Maria da Serra
       - Santa Mercedes
-      - Santana da Ponte Pensa
-      - Santana de Parnaíba
       - Santa Rita d'Oeste
       - Santa Rita do Passa Quatro
       - Santa Rosa de Viterbo
       - Santa Salete
+      - Santana da Ponte Pensa
+      - Santana de Parnaíba
       - Santo Anastácio
       - Santo André
       - Santo Antônio da Alegria
@@ -5396,8 +5396,8 @@ states:
       - Sarutaiá
       - Sebastianópolis do Sul
       - Serra Azul
-      - Serrana
       - Serra Negra
+      - Serrana
       - Sertãozinho
       - Sete Barras
       - Severínia
@@ -5530,8 +5530,8 @@ states:
       - Rosário do Catete
       - Salgado
       - Santa Luzia do Itanhy
-      - Santana do São Francisco
       - Santa Rosa de Lima
+      - Santana do São Francisco
       - Santo Amaro das Brotas
       - São Cristóvão
       - São Domingos
