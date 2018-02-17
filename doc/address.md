@@ -14,7 +14,7 @@ it simple. _If someone knows more generic names, please [pull request]_
 
 ## Database in 2 steps
 
-1. Build the database with `composer run-script yasql-build -- build`
+1. Build the database with `composer yasql-build`
 2. Run the generated `build/address.sql` in your server
 
 > It only applies if you clone this repository. For adding it in your own
@@ -57,9 +57,12 @@ you will focus in the `dump()` and `load()` methods:
 - `load()`: access the data in a specific row (foreigns included). When creating
   a new object with an argument, this method is called
 
+> It is a good idea to use `getInstance()` instead of `load()`, to reuse models
+> already loaded.
+
 If you wish to insert rows into the database using these models, you will have
 to extend them to change the `READ_ONLY` configuration to `false`, and also
-update the `FOREIGN_KEYS`.
+update the `FOREIGN_KEYS` to your new classes.
 
 
 # Structure
