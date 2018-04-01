@@ -1,17 +1,26 @@
 <?php
 /**
- * Example of Configurations for aryelgois/Medools
+ * Example of Configuration for MedooConnection
+ *
+ * @see https://github.com/aryelgois/Medools#setup for details
  */
 
 return [
-    'databases' => [
-        'address'       => 'address',
+    'servers' => [
+        'default' => [
+            // required
+            'server' => 'localhost',
+            'username' => 'root',
+            'password' => 'password',
+            'database_type' => 'mysql',
+
+            // [optional]
+            'charset' => 'utf8',
+        ],
     ],
-    'options' => [
-        'database_type' => 'mysql',
-        'server'        => 'localhost',
-        'username'      => 'root',
-        'password'      => 'password',
-        'charset'       => 'utf8',
-    ]
+    'databases' => [
+        'address' => [
+            'database_name' => 'address',
+        ],
+    ],
 ];
