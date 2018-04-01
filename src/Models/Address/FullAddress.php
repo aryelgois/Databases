@@ -44,7 +44,6 @@ class FullAddress extends Medools\Model
 
     const OPTIONAL_COLUMNS = [
         'detail',
-        'update',
     ];
 
     const FOREIGN_KEYS = [
