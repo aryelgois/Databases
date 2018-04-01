@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 - Update dependencies
-- Update [aryelgois/Medools] configuration example
+- Update and rename [aryelgois/Medools] config file
 
 ### Deprecated
 
