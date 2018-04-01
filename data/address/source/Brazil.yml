@@ -134,25 +134,6 @@ states:
       - Traipu
       - União dos Palmares
       - Viçosa
-  - code: AP
-    name: Amapá
-    counties:
-      - Amapá
-      - Calçoene
-      - Cutias
-      - Ferreira Gomes
-      - Itaubal
-      - Laranjal do Jari
-      - Macapá
-      - Mazagão
-      - Oiapoque
-      - Pedra Branca do Amapari
-      - Porto Grande
-      - Pracuuba
-      - Santana
-      - Serra do Navio
-      - Tartarugalzinho
-      - Vitória do Jari
   - code: AM
     name: Amazonas
     counties:
@@ -218,6 +199,25 @@ states:
       - Uarini
       - Urucará
       - Urucurituba
+  - code: AP
+    name: Amapá
+    counties:
+      - Amapá
+      - Calçoene
+      - Cutias
+      - Ferreira Gomes
+      - Itaubal
+      - Laranjal do Jari
+      - Macapá
+      - Mazagão
+      - Oiapoque
+      - Pedra Branca do Amapari
+      - Porto Grande
+      - Pracuuba
+      - Santana
+      - Serra do Navio
+      - Tartarugalzinho
+      - Vitória do Jari
   - code: BA
     name: Bahia
     counties:
@@ -1409,232 +1409,6 @@ states:
       - Vitória do Mearim
       - Vitorino Freire
       - Zé Doca
-  - code: MT
-    name: Mato Grosso
-    counties:
-      - Acorizal
-      - Água Boa
-      - Alta Floresta
-      - Alto Araguaia
-      - Alto da Boa Vista
-      - Alto Garças
-      - Alto Paraguai
-      - Alto Taquari
-      - Apiacás
-      - Araguaiana
-      - Araguainha
-      - Araputanga
-      - Arenápolis
-      - Aripuanã
-      - Barão de Melgaço
-      - Barra do Bugres
-      - Barra do Garças
-      - Bom Jesus do Araguaia
-      - Brasnorte
-      - Cáceres
-      - Campinápolis
-      - Campo Novo do Parecis
-      - Campo Verde
-      - Campos de Júlio
-      - Canabrava do Norte
-      - Canarana
-      - Carlinda
-      - Castanheira
-      - Chapada dos Guimarães
-      - Cláudia
-      - Cocalinho
-      - Colíder
-      - Colniza
-      - Comodoro
-      - Confresa
-      - Conquista d'Oeste
-      - Cotriguaçu
-      - Cuiabá
-      - Curvelândia
-      - Denise
-      - Diamantino
-      - Dom Aquino
-      - Feliz Natal
-      - Figueirópolis d'Oeste
-      - Gaúcha do Norte
-      - General Carneiro
-      - Glória d'Oeste
-      - Guarantã do Norte
-      - Guiratinga
-      - Indiavaí
-      - Ipiranga do Norte
-      - Itanhangá
-      - Itaúba
-      - Itiquira
-      - Jaciara
-      - Jangada
-      - Jauru
-      - Juara
-      - Juína
-      - Juruena
-      - Juscimeira
-      - Lambari d'Oeste
-      - Lucas do Rio Verde
-      - Luciara
-      - Marcelândia
-      - Matupá
-      - Mirassol d'Oeste
-      - Nobres
-      - Nortelândia
-      - Nossa Senhora do Livramento
-      - Nova Bandeirantes
-      - Nova Brasilândia
-      - Nova Canaã do Norte
-      - Nova Guarita
-      - Nova Lacerda
-      - Nova Marilândia
-      - Nova Maringá
-      - Nova Monte Verde
-      - Nova Mutum
-      - Nova Nazaré
-      - Nova Olímpia
-      - Nova Santa Helena
-      - Nova Ubiratã
-      - Nova Xavantina
-      - Novo Horizonte do Norte
-      - Novo Mundo
-      - Novo Santo Antônio
-      - Novo São Joaquim
-      - Paranaíta
-      - Paranatinga
-      - Pedra Preta
-      - Peixoto de Azevedo
-      - Planalto da Serra
-      - Poconé
-      - Pontal do Araguaia
-      - Ponte Branca
-      - Pontes e Lacerda
-      - Porto Alegre do Norte
-      - Porto dos Gaúchos
-      - Porto Esperidião
-      - Porto Estrela
-      - Poxoréu
-      - Primavera do Leste
-      - Querência
-      - Reserva do Cabaçal
-      - Ribeirão Cascalheira
-      - Ribeirãozinho
-      - Rio Branco
-      - Rondolândia
-      - Rondonópolis
-      - Rosário Oeste
-      - Salto do Céu
-      - Santa Carmem
-      - Santa Cruz do Xingu
-      - Santa Rita do Trivelato
-      - Santa Terezinha
-      - Santo Afonso
-      - Santo Antônio do Leste
-      - Santo Antônio do Leverger
-      - São Félix do Araguaia
-      - São José do Povo
-      - São José do Rio Claro
-      - São José do Xingu
-      - São José dos Quatro Marcos
-      - São Pedro da Cipa
-      - Sapezal
-      - Serra Nova Dourada
-      - Sinop
-      - Sorriso
-      - Tabaporã
-      - Tangará da Serra
-      - Tapurah
-      - Terra Nova do Norte
-      - Tesouro
-      - Torixoréu
-      - União do Sul
-      - Vale de São Domingos
-      - Várzea Grande
-      - Vera
-      - Vila Bela da Santíssima Trindade
-      - Vila Rica
-  - code: MS
-    name: Mato Grosso do Sul
-    counties:
-      - Água Clara
-      - Alcinópolis
-      - Amambai
-      - Anastácio
-      - Anaurilândia
-      - Angélica
-      - Antônio João
-      - Aparecida do Taboado
-      - Aquidauana
-      - Aral Moreira
-      - Bandeirantes
-      - Bataguaçu
-      - Batayporã
-      - Bela Vista
-      - Bodoquena
-      - Bonito
-      - Brasilândia
-      - Caarapó
-      - Camapuã
-      - Campo Grande
-      - Caracol
-      - Cassilândia
-      - Chapadão do Sul
-      - Corguinho
-      - Coronel Sapucaia
-      - Corumbá
-      - Costa Rica
-      - Coxim
-      - Deodápolis
-      - Dois Irmãos do Buriti
-      - Douradina
-      - Dourados
-      - Eldorado
-      - Fátima do Sul
-      - Figueirão
-      - Glória de Dourados
-      - Guia Lopes da Laguna
-      - Iguatemi
-      - Inocência
-      - Itaporã
-      - Itaquiraí
-      - Ivinhema
-      - Japorã
-      - Jaraguari
-      - Jardim
-      - Jateí
-      - Juti
-      - Ladário
-      - Laguna Carapã
-      - Maracaju
-      - Miranda
-      - Mundo Novo
-      - Naviraí
-      - Nioaque
-      - Nova Alvorada do Sul
-      - Nova Andradina
-      - Novo Horizonte do Sul
-      - Paraíso das Águas
-      - Paranaíba
-      - Paranhos
-      - Pedro Gomes
-      - Ponta Porã
-      - Porto Murtinho
-      - Ribas do Rio Pardo
-      - Rio Brilhante
-      - Rio Negro
-      - Rio Verde de Mato Grosso
-      - Rochedo
-      - Santa Rita do Pardo
-      - São Gabriel do Oeste
-      - Selvíria
-      - Sete Quedas
-      - Sidrolândia
-      - Sonora
-      - Tacuru
-      - Taquarussu
-      - Terenos
-      - Três Lagoas
-      - Vicentina
   - code: MG
     name: Minas Gerais
     counties:
@@ -2491,6 +2265,232 @@ states:
       - Visconde do Rio Branco
       - Volta Grande
       - Wenceslau Braz
+  - code: MS
+    name: Mato Grosso do Sul
+    counties:
+      - Água Clara
+      - Alcinópolis
+      - Amambai
+      - Anastácio
+      - Anaurilândia
+      - Angélica
+      - Antônio João
+      - Aparecida do Taboado
+      - Aquidauana
+      - Aral Moreira
+      - Bandeirantes
+      - Bataguaçu
+      - Batayporã
+      - Bela Vista
+      - Bodoquena
+      - Bonito
+      - Brasilândia
+      - Caarapó
+      - Camapuã
+      - Campo Grande
+      - Caracol
+      - Cassilândia
+      - Chapadão do Sul
+      - Corguinho
+      - Coronel Sapucaia
+      - Corumbá
+      - Costa Rica
+      - Coxim
+      - Deodápolis
+      - Dois Irmãos do Buriti
+      - Douradina
+      - Dourados
+      - Eldorado
+      - Fátima do Sul
+      - Figueirão
+      - Glória de Dourados
+      - Guia Lopes da Laguna
+      - Iguatemi
+      - Inocência
+      - Itaporã
+      - Itaquiraí
+      - Ivinhema
+      - Japorã
+      - Jaraguari
+      - Jardim
+      - Jateí
+      - Juti
+      - Ladário
+      - Laguna Carapã
+      - Maracaju
+      - Miranda
+      - Mundo Novo
+      - Naviraí
+      - Nioaque
+      - Nova Alvorada do Sul
+      - Nova Andradina
+      - Novo Horizonte do Sul
+      - Paraíso das Águas
+      - Paranaíba
+      - Paranhos
+      - Pedro Gomes
+      - Ponta Porã
+      - Porto Murtinho
+      - Ribas do Rio Pardo
+      - Rio Brilhante
+      - Rio Negro
+      - Rio Verde de Mato Grosso
+      - Rochedo
+      - Santa Rita do Pardo
+      - São Gabriel do Oeste
+      - Selvíria
+      - Sete Quedas
+      - Sidrolândia
+      - Sonora
+      - Tacuru
+      - Taquarussu
+      - Terenos
+      - Três Lagoas
+      - Vicentina
+  - code: MT
+    name: Mato Grosso
+    counties:
+      - Acorizal
+      - Água Boa
+      - Alta Floresta
+      - Alto Araguaia
+      - Alto da Boa Vista
+      - Alto Garças
+      - Alto Paraguai
+      - Alto Taquari
+      - Apiacás
+      - Araguaiana
+      - Araguainha
+      - Araputanga
+      - Arenápolis
+      - Aripuanã
+      - Barão de Melgaço
+      - Barra do Bugres
+      - Barra do Garças
+      - Bom Jesus do Araguaia
+      - Brasnorte
+      - Cáceres
+      - Campinápolis
+      - Campo Novo do Parecis
+      - Campo Verde
+      - Campos de Júlio
+      - Canabrava do Norte
+      - Canarana
+      - Carlinda
+      - Castanheira
+      - Chapada dos Guimarães
+      - Cláudia
+      - Cocalinho
+      - Colíder
+      - Colniza
+      - Comodoro
+      - Confresa
+      - Conquista d'Oeste
+      - Cotriguaçu
+      - Cuiabá
+      - Curvelândia
+      - Denise
+      - Diamantino
+      - Dom Aquino
+      - Feliz Natal
+      - Figueirópolis d'Oeste
+      - Gaúcha do Norte
+      - General Carneiro
+      - Glória d'Oeste
+      - Guarantã do Norte
+      - Guiratinga
+      - Indiavaí
+      - Ipiranga do Norte
+      - Itanhangá
+      - Itaúba
+      - Itiquira
+      - Jaciara
+      - Jangada
+      - Jauru
+      - Juara
+      - Juína
+      - Juruena
+      - Juscimeira
+      - Lambari d'Oeste
+      - Lucas do Rio Verde
+      - Luciara
+      - Marcelândia
+      - Matupá
+      - Mirassol d'Oeste
+      - Nobres
+      - Nortelândia
+      - Nossa Senhora do Livramento
+      - Nova Bandeirantes
+      - Nova Brasilândia
+      - Nova Canaã do Norte
+      - Nova Guarita
+      - Nova Lacerda
+      - Nova Marilândia
+      - Nova Maringá
+      - Nova Monte Verde
+      - Nova Mutum
+      - Nova Nazaré
+      - Nova Olímpia
+      - Nova Santa Helena
+      - Nova Ubiratã
+      - Nova Xavantina
+      - Novo Horizonte do Norte
+      - Novo Mundo
+      - Novo Santo Antônio
+      - Novo São Joaquim
+      - Paranaíta
+      - Paranatinga
+      - Pedra Preta
+      - Peixoto de Azevedo
+      - Planalto da Serra
+      - Poconé
+      - Pontal do Araguaia
+      - Ponte Branca
+      - Pontes e Lacerda
+      - Porto Alegre do Norte
+      - Porto dos Gaúchos
+      - Porto Esperidião
+      - Porto Estrela
+      - Poxoréu
+      - Primavera do Leste
+      - Querência
+      - Reserva do Cabaçal
+      - Ribeirão Cascalheira
+      - Ribeirãozinho
+      - Rio Branco
+      - Rondolândia
+      - Rondonópolis
+      - Rosário Oeste
+      - Salto do Céu
+      - Santa Carmem
+      - Santa Cruz do Xingu
+      - Santa Rita do Trivelato
+      - Santa Terezinha
+      - Santo Afonso
+      - Santo Antônio do Leste
+      - Santo Antônio do Leverger
+      - São Félix do Araguaia
+      - São José do Povo
+      - São José do Rio Claro
+      - São José do Xingu
+      - São José dos Quatro Marcos
+      - São Pedro da Cipa
+      - Sapezal
+      - Serra Nova Dourada
+      - Sinop
+      - Sorriso
+      - Tabaporã
+      - Tangará da Serra
+      - Tapurah
+      - Terra Nova do Norte
+      - Tesouro
+      - Torixoréu
+      - União do Sul
+      - Vale de São Domingos
+      - Várzea Grande
+      - Vera
+      - Vila Bela da Santíssima Trindade
+      - Vila Rica
   - code: PA
     name: Pará
     counties:
@@ -2864,408 +2864,6 @@ states:
       - Vieirópolis
       - Vista Serrana
       - Zabelê
-  - code: PR
-    name: Paraná
-    counties:
-      - Abatiá
-      - Adrianópolis
-      - Agudos do Sul
-      - Almirante Tamandaré
-      - Altamira do Paraná
-      - Alto Paraíso
-      - Alto Paraná
-      - Alto Piquiri
-      - Altônia
-      - Alvorada do Sul
-      - Amaporã
-      - Ampére
-      - Anahy
-      - Andirá
-      - Ângulo
-      - Antonina
-      - Antônio Olinto
-      - Apucarana
-      - Arapongas
-      - Arapoti
-      - Arapuã
-      - Araruna
-      - Araucária
-      - Ariranha do Ivaí
-      - Assaí
-      - Assis Chateaubriand
-      - Astorga
-      - Atalaia
-      - Balsa Nova
-      - Bandeirantes
-      - Barbosa Ferraz
-      - Barra do Jacaré
-      - Barracão
-      - Bela Vista da Caroba
-      - Bela Vista do Paraíso
-      - Bituruna
-      - Boa Esperança
-      - Boa Esperança do Iguaçu
-      - Boa Ventura de São Roque
-      - Boa Vista da Aparecida
-      - Bocaiuva do Sul
-      - Bom Jesus do Sul
-      - Bom Sucesso
-      - Bom Sucesso do Sul
-      - Borrazópolis
-      - Braganey
-      - Brasilândia do Sul
-      - Cafeara
-      - Cafelândia
-      - Cafezal do Sul
-      - Califórnia
-      - Cambará
-      - Cambé
-      - Cambira
-      - Campina da Lagoa
-      - Campina do Simão
-      - Campina Grande do Sul
-      - Campo Bonito
-      - Campo do Tenente
-      - Campo Largo
-      - Campo Magro
-      - Campo Mourão
-      - Cândido de Abreu
-      - Candói
-      - Cantagalo
-      - Capanema
-      - Capitão Leônidas Marques
-      - Carambeí
-      - Carlópolis
-      - Cascavel
-      - Castro
-      - Catanduvas
-      - Centenário do Sul
-      - Cerro Azul
-      - Céu Azul
-      - Chopinzinho
-      - Cianorte
-      - Cidade Gaúcha
-      - Clevelândia
-      - Colombo
-      - Colorado
-      - Congonhinhas
-      - Conselheiro Mairinck
-      - Contenda
-      - Corbélia
-      - Cornélio Procópio
-      - Coronel Domingos Soares
-      - Coronel Vivida
-      - Corumbataí do Sul
-      - Cruz Machado
-      - Cruzeiro do Iguaçu
-      - Cruzeiro do Oeste
-      - Cruzeiro do Sul
-      - Cruzmaltina
-      - Curitiba
-      - Curiúva
-      - Diamante d'Oeste
-      - Diamante do Norte
-      - Diamante do Sul
-      - Dois Vizinhos
-      - Douradina
-      - Doutor Camargo
-      - Doutor Ulysses
-      - Enéas Marques
-      - Engenheiro Beltrão
-      - Entre Rios do Oeste
-      - Esperança Nova
-      - Espigão Alto do Iguaçu
-      - Farol
-      - Faxinal
-      - Fazenda Rio Grande
-      - Fênix
-      - Fernandes Pinheiro
-      - Figueira
-      - Flor da Serra do Sul
-      - Floraí
-      - Floresta
-      - Florestópolis
-      - Flórida
-      - Formosa do Oeste
-      - Foz do Iguaçu
-      - Foz do Jordão
-      - Francisco Alves
-      - Francisco Beltrão
-      - General Carneiro
-      - Godoy Moreira
-      - Goioerê
-      - Goioxim
-      - Grandes Rios
-      - Guaíra
-      - Guairaçá
-      - Guamiranga
-      - Guapirama
-      - Guaporema
-      - Guaraci
-      - Guaraniaçu
-      - Guarapuava
-      - Guaraqueçaba
-      - Guaratuba
-      - Honório Serpa
-      - Ibaiti
-      - Ibema
-      - Ibiporã
-      - Icaraíma
-      - Iguaraçu
-      - Iguatu
-      - Imbaú
-      - Imbituva
-      - Inácio Martins
-      - Inajá
-      - Indianópolis
-      - Ipiranga
-      - Iporã
-      - Iracema do Oeste
-      - Irati
-      - Iretama
-      - Itaguajé
-      - Itaipulândia
-      - Itambaracá
-      - Itambé
-      - Itapejara d'Oeste
-      - Itaperuçu
-      - Itaúna do Sul
-      - Ivaí
-      - Ivaiporã
-      - Ivaté
-      - Ivatuba
-      - Jaboti
-      - Jacarezinho
-      - Jaguapitã
-      - Jaguariaíva
-      - Jandaia do Sul
-      - Janiópolis
-      - Japira
-      - Japurá
-      - Jardim Alegre
-      - Jardim Olinda
-      - Jataizinho
-      - Jesuítas
-      - Joaquim Távora
-      - Jundiaí do Sul
-      - Juranda
-      - Jussara
-      - Kaloré
-      - Lapa
-      - Laranjal
-      - Laranjeiras do Sul
-      - Leópolis
-      - Lidianópolis
-      - Lindoeste
-      - Loanda
-      - Lobato
-      - Londrina
-      - Luisiana
-      - Lunardelli
-      - Lupionópolis
-      - Mallet
-      - Mamborê
-      - Mandaguaçu
-      - Mandaguari
-      - Mandirituba
-      - Manfrinópolis
-      - Mangueirinha
-      - Manoel Ribas
-      - Marechal Cândido Rondon
-      - Maria Helena
-      - Marialva
-      - Marilândia do Sul
-      - Marilena
-      - Mariluz
-      - Maringá
-      - Mariópolis
-      - Maripá
-      - Marmeleiro
-      - Marquinho
-      - Marumbi
-      - Matelândia
-      - Matinhos
-      - Mato Rico
-      - Mauá da Serra
-      - Medianeira
-      - Mercedes
-      - Mirador
-      - Miraselva
-      - Missal
-      - Moreira Sales
-      - Morretes
-      - Munhoz de Melo
-      - Nossa Senhora das Graças
-      - Nova Aliança do Ivaí
-      - Nova América da Colina
-      - Nova Aurora
-      - Nova Cantu
-      - Nova Esperança
-      - Nova Esperança do Sudoeste
-      - Nova Fátima
-      - Nova Laranjeiras
-      - Nova Londrina
-      - Nova Olímpia
-      - Nova Prata do Iguaçu
-      - Nova Santa Bárbara
-      - Nova Santa Rosa
-      - Nova Tebas
-      - Novo Itacolomi
-      - Ortigueira
-      - Ourizona
-      - Ouro Verde do Oeste
-      - Paiçandu
-      - Palmas
-      - Palmeira
-      - Palmital
-      - Palotina
-      - Paraíso do Norte
-      - Paranacity
-      - Paranaguá
-      - Paranapoema
-      - Paranavaí
-      - Pato Bragado
-      - Pato Branco
-      - Paula Freitas
-      - Paulo Frontin
-      - Peabiru
-      - Perobal
-      - Pérola
-      - Pérola d'Oeste
-      - Piên
-      - Pinhais
-      - Pinhal de São Bento
-      - Pinhalão
-      - Pinhão
-      - Piraí do Sul
-      - Piraquara
-      - Pitanga
-      - Pitangueiras
-      - Planaltina do Paraná
-      - Planalto
-      - Ponta Grossa
-      - Pontal do Paraná
-      - Porecatu
-      - Porto Amazonas
-      - Porto Barreiro
-      - Porto Rico
-      - Porto Vitória
-      - Prado Ferreira
-      - Pranchita
-      - Presidente Castelo Branco
-      - Primeiro de Maio
-      - Prudentópolis
-      - Quarto Centenário
-      - Quatiguá
-      - Quatro Barras
-      - Quatro Pontes
-      - Quedas do Iguaçu
-      - Querência do Norte
-      - Quinta do Sol
-      - Quitandinha
-      - Ramilândia
-      - Rancho Alegre
-      - Rancho Alegre d'Oeste
-      - Realeza
-      - Rebouças
-      - Renascença
-      - Reserva
-      - Reserva do Iguaçu
-      - Ribeirão Claro
-      - Ribeirão do Pinhal
-      - Rio Azul
-      - Rio Bom
-      - Rio Bonito do Iguaçu
-      - Rio Branco do Ivaí
-      - Rio Branco do Sul
-      - Rio Negro
-      - Rolândia
-      - Roncador
-      - Rondon
-      - Rosário do Ivaí
-      - Sabáudia
-      - Salgado Filho
-      - Salto do Itararé
-      - Salto do Lontra
-      - Santa Amélia
-      - Santa Cecília do Pavão
-      - Santa Cruz de Monte Castelo
-      - Santa Fé
-      - Santa Helena
-      - Santa Inês
-      - Santa Isabel do Ivaí
-      - Santa Izabel do Oeste
-      - Santa Lúcia
-      - Santa Maria do Oeste
-      - Santa Mariana
-      - Santa Mônica
-      - Santa Tereza do Oeste
-      - Santa Terezinha de Itaipu
-      - Santana do Itararé
-      - Santo Antônio da Platina
-      - Santo Antônio do Caiuá
-      - Santo Antônio do Paraíso
-      - Santo Antônio do Sudoeste
-      - Santo Inácio
-      - São Carlos do Ivaí
-      - São Jerônimo da Serra
-      - São João
-      - São João do Caiuá
-      - São João do Ivaí
-      - São João do Triunfo
-      - São Jorge d'Oeste
-      - São Jorge do Ivaí
-      - São Jorge do Patrocínio
-      - São José da Boa Vista
-      - São José das Palmeiras
-      - São José dos Pinhais
-      - São Manoel do Paraná
-      - São Mateus do Sul
-      - São Miguel do Iguaçu
-      - São Pedro do Iguaçu
-      - São Pedro do Ivaí
-      - São Pedro do Paraná
-      - São Sebastião da Amoreira
-      - São Tomé
-      - Sapopema
-      - Sarandi
-      - Saudade do Iguaçu
-      - Sengés
-      - Serranópolis do Iguaçu
-      - Sertaneja
-      - Sertanópolis
-      - Siqueira Campos
-      - Sulina
-      - Tamarana
-      - Tamboara
-      - Tapejara
-      - Tapira
-      - Teixeira Soares
-      - Telêmaco Borba
-      - Terra Boa
-      - Terra Rica
-      - Terra Roxa
-      - Tibagi
-      - Tijucas do Sul
-      - Toledo
-      - Tomazina
-      - Três Barras do Paraná
-      - Tunas do Paraná
-      - Tuneiras do Oeste
-      - Tupãssi
-      - Turvo
-      - Ubiratã
-      - Umuarama
-      - União da Vitória
-      - Uniflor
-      - Uraí
-      - Ventania
-      - Vera Cruz do Oeste
-      - Verê
-      - Virmond
-      - Vitorino
-      - Wenceslau Braz
-      - Xambrê
   - code: PE
     name: Pernambuco
     counties:
@@ -3681,6 +3279,408 @@ states:
       - Vera Mendes
       - Vila Nova do Piauí
       - Wall Ferraz
+  - code: PR
+    name: Paraná
+    counties:
+      - Abatiá
+      - Adrianópolis
+      - Agudos do Sul
+      - Almirante Tamandaré
+      - Altamira do Paraná
+      - Alto Paraíso
+      - Alto Paraná
+      - Alto Piquiri
+      - Altônia
+      - Alvorada do Sul
+      - Amaporã
+      - Ampére
+      - Anahy
+      - Andirá
+      - Ângulo
+      - Antonina
+      - Antônio Olinto
+      - Apucarana
+      - Arapongas
+      - Arapoti
+      - Arapuã
+      - Araruna
+      - Araucária
+      - Ariranha do Ivaí
+      - Assaí
+      - Assis Chateaubriand
+      - Astorga
+      - Atalaia
+      - Balsa Nova
+      - Bandeirantes
+      - Barbosa Ferraz
+      - Barra do Jacaré
+      - Barracão
+      - Bela Vista da Caroba
+      - Bela Vista do Paraíso
+      - Bituruna
+      - Boa Esperança
+      - Boa Esperança do Iguaçu
+      - Boa Ventura de São Roque
+      - Boa Vista da Aparecida
+      - Bocaiuva do Sul
+      - Bom Jesus do Sul
+      - Bom Sucesso
+      - Bom Sucesso do Sul
+      - Borrazópolis
+      - Braganey
+      - Brasilândia do Sul
+      - Cafeara
+      - Cafelândia
+      - Cafezal do Sul
+      - Califórnia
+      - Cambará
+      - Cambé
+      - Cambira
+      - Campina da Lagoa
+      - Campina do Simão
+      - Campina Grande do Sul
+      - Campo Bonito
+      - Campo do Tenente
+      - Campo Largo
+      - Campo Magro
+      - Campo Mourão
+      - Cândido de Abreu
+      - Candói
+      - Cantagalo
+      - Capanema
+      - Capitão Leônidas Marques
+      - Carambeí
+      - Carlópolis
+      - Cascavel
+      - Castro
+      - Catanduvas
+      - Centenário do Sul
+      - Cerro Azul
+      - Céu Azul
+      - Chopinzinho
+      - Cianorte
+      - Cidade Gaúcha
+      - Clevelândia
+      - Colombo
+      - Colorado
+      - Congonhinhas
+      - Conselheiro Mairinck
+      - Contenda
+      - Corbélia
+      - Cornélio Procópio
+      - Coronel Domingos Soares
+      - Coronel Vivida
+      - Corumbataí do Sul
+      - Cruz Machado
+      - Cruzeiro do Iguaçu
+      - Cruzeiro do Oeste
+      - Cruzeiro do Sul
+      - Cruzmaltina
+      - Curitiba
+      - Curiúva
+      - Diamante d'Oeste
+      - Diamante do Norte
+      - Diamante do Sul
+      - Dois Vizinhos
+      - Douradina
+      - Doutor Camargo
+      - Doutor Ulysses
+      - Enéas Marques
+      - Engenheiro Beltrão
+      - Entre Rios do Oeste
+      - Esperança Nova
+      - Espigão Alto do Iguaçu
+      - Farol
+      - Faxinal
+      - Fazenda Rio Grande
+      - Fênix
+      - Fernandes Pinheiro
+      - Figueira
+      - Flor da Serra do Sul
+      - Floraí
+      - Floresta
+      - Florestópolis
+      - Flórida
+      - Formosa do Oeste
+      - Foz do Iguaçu
+      - Foz do Jordão
+      - Francisco Alves
+      - Francisco Beltrão
+      - General Carneiro
+      - Godoy Moreira
+      - Goioerê
+      - Goioxim
+      - Grandes Rios
+      - Guaíra
+      - Guairaçá
+      - Guamiranga
+      - Guapirama
+      - Guaporema
+      - Guaraci
+      - Guaraniaçu
+      - Guarapuava
+      - Guaraqueçaba
+      - Guaratuba
+      - Honório Serpa
+      - Ibaiti
+      - Ibema
+      - Ibiporã
+      - Icaraíma
+      - Iguaraçu
+      - Iguatu
+      - Imbaú
+      - Imbituva
+      - Inácio Martins
+      - Inajá
+      - Indianópolis
+      - Ipiranga
+      - Iporã
+      - Iracema do Oeste
+      - Irati
+      - Iretama
+      - Itaguajé
+      - Itaipulândia
+      - Itambaracá
+      - Itambé
+      - Itapejara d'Oeste
+      - Itaperuçu
+      - Itaúna do Sul
+      - Ivaí
+      - Ivaiporã
+      - Ivaté
+      - Ivatuba
+      - Jaboti
+      - Jacarezinho
+      - Jaguapitã
+      - Jaguariaíva
+      - Jandaia do Sul
+      - Janiópolis
+      - Japira
+      - Japurá
+      - Jardim Alegre
+      - Jardim Olinda
+      - Jataizinho
+      - Jesuítas
+      - Joaquim Távora
+      - Jundiaí do Sul
+      - Juranda
+      - Jussara
+      - Kaloré
+      - Lapa
+      - Laranjal
+      - Laranjeiras do Sul
+      - Leópolis
+      - Lidianópolis
+      - Lindoeste
+      - Loanda
+      - Lobato
+      - Londrina
+      - Luisiana
+      - Lunardelli
+      - Lupionópolis
+      - Mallet
+      - Mamborê
+      - Mandaguaçu
+      - Mandaguari
+      - Mandirituba
+      - Manfrinópolis
+      - Mangueirinha
+      - Manoel Ribas
+      - Marechal Cândido Rondon
+      - Maria Helena
+      - Marialva
+      - Marilândia do Sul
+      - Marilena
+      - Mariluz
+      - Maringá
+      - Mariópolis
+      - Maripá
+      - Marmeleiro
+      - Marquinho
+      - Marumbi
+      - Matelândia
+      - Matinhos
+      - Mato Rico
+      - Mauá da Serra
+      - Medianeira
+      - Mercedes
+      - Mirador
+      - Miraselva
+      - Missal
+      - Moreira Sales
+      - Morretes
+      - Munhoz de Melo
+      - Nossa Senhora das Graças
+      - Nova Aliança do Ivaí
+      - Nova América da Colina
+      - Nova Aurora
+      - Nova Cantu
+      - Nova Esperança
+      - Nova Esperança do Sudoeste
+      - Nova Fátima
+      - Nova Laranjeiras
+      - Nova Londrina
+      - Nova Olímpia
+      - Nova Prata do Iguaçu
+      - Nova Santa Bárbara
+      - Nova Santa Rosa
+      - Nova Tebas
+      - Novo Itacolomi
+      - Ortigueira
+      - Ourizona
+      - Ouro Verde do Oeste
+      - Paiçandu
+      - Palmas
+      - Palmeira
+      - Palmital
+      - Palotina
+      - Paraíso do Norte
+      - Paranacity
+      - Paranaguá
+      - Paranapoema
+      - Paranavaí
+      - Pato Bragado
+      - Pato Branco
+      - Paula Freitas
+      - Paulo Frontin
+      - Peabiru
+      - Perobal
+      - Pérola
+      - Pérola d'Oeste
+      - Piên
+      - Pinhais
+      - Pinhal de São Bento
+      - Pinhalão
+      - Pinhão
+      - Piraí do Sul
+      - Piraquara
+      - Pitanga
+      - Pitangueiras
+      - Planaltina do Paraná
+      - Planalto
+      - Ponta Grossa
+      - Pontal do Paraná
+      - Porecatu
+      - Porto Amazonas
+      - Porto Barreiro
+      - Porto Rico
+      - Porto Vitória
+      - Prado Ferreira
+      - Pranchita
+      - Presidente Castelo Branco
+      - Primeiro de Maio
+      - Prudentópolis
+      - Quarto Centenário
+      - Quatiguá
+      - Quatro Barras
+      - Quatro Pontes
+      - Quedas do Iguaçu
+      - Querência do Norte
+      - Quinta do Sol
+      - Quitandinha
+      - Ramilândia
+      - Rancho Alegre
+      - Rancho Alegre d'Oeste
+      - Realeza
+      - Rebouças
+      - Renascença
+      - Reserva
+      - Reserva do Iguaçu
+      - Ribeirão Claro
+      - Ribeirão do Pinhal
+      - Rio Azul
+      - Rio Bom
+      - Rio Bonito do Iguaçu
+      - Rio Branco do Ivaí
+      - Rio Branco do Sul
+      - Rio Negro
+      - Rolândia
+      - Roncador
+      - Rondon
+      - Rosário do Ivaí
+      - Sabáudia
+      - Salgado Filho
+      - Salto do Itararé
+      - Salto do Lontra
+      - Santa Amélia
+      - Santa Cecília do Pavão
+      - Santa Cruz de Monte Castelo
+      - Santa Fé
+      - Santa Helena
+      - Santa Inês
+      - Santa Isabel do Ivaí
+      - Santa Izabel do Oeste
+      - Santa Lúcia
+      - Santa Maria do Oeste
+      - Santa Mariana
+      - Santa Mônica
+      - Santa Tereza do Oeste
+      - Santa Terezinha de Itaipu
+      - Santana do Itararé
+      - Santo Antônio da Platina
+      - Santo Antônio do Caiuá
+      - Santo Antônio do Paraíso
+      - Santo Antônio do Sudoeste
+      - Santo Inácio
+      - São Carlos do Ivaí
+      - São Jerônimo da Serra
+      - São João
+      - São João do Caiuá
+      - São João do Ivaí
+      - São João do Triunfo
+      - São Jorge d'Oeste
+      - São Jorge do Ivaí
+      - São Jorge do Patrocínio
+      - São José da Boa Vista
+      - São José das Palmeiras
+      - São José dos Pinhais
+      - São Manoel do Paraná
+      - São Mateus do Sul
+      - São Miguel do Iguaçu
+      - São Pedro do Iguaçu
+      - São Pedro do Ivaí
+      - São Pedro do Paraná
+      - São Sebastião da Amoreira
+      - São Tomé
+      - Sapopema
+      - Sarandi
+      - Saudade do Iguaçu
+      - Sengés
+      - Serranópolis do Iguaçu
+      - Sertaneja
+      - Sertanópolis
+      - Siqueira Campos
+      - Sulina
+      - Tamarana
+      - Tamboara
+      - Tapejara
+      - Tapira
+      - Teixeira Soares
+      - Telêmaco Borba
+      - Terra Boa
+      - Terra Rica
+      - Terra Roxa
+      - Tibagi
+      - Tijucas do Sul
+      - Toledo
+      - Tomazina
+      - Três Barras do Paraná
+      - Tunas do Paraná
+      - Tuneiras do Oeste
+      - Tupãssi
+      - Turvo
+      - Ubiratã
+      - Umuarama
+      - União da Vitória
+      - Uniflor
+      - Uraí
+      - Ventania
+      - Vera Cruz do Oeste
+      - Verê
+      - Virmond
+      - Vitorino
+      - Wenceslau Braz
+      - Xambrê
   - code: RJ
     name: Rio de Janeiro
     counties:
@@ -3946,6 +3946,79 @@ states:
       - Vera Cruz
       - Viçosa
       - Vila Flor
+  - code: RO
+    name: Rondônia
+    counties:
+      - Alta Floresta d'Oeste
+      - Alto Alegre dos Parecis
+      - Alto Paraíso
+      - Alvorada d'Oeste
+      - Ariquemes
+      - Buritis
+      - Cabixi
+      - Cacaulândia
+      - Cacoal
+      - Campo Novo de Rondônia
+      - Candeias do Jamari
+      - Castanheiras
+      - Cerejeiras
+      - Chupinguaia
+      - Colorado do Oeste
+      - Corumbiara
+      - Costa Marques
+      - Cujubim
+      - Espigão d'Oeste
+      - Governador Jorge Teixeira
+      - Guajará-Mirim
+      - Itapuã do Oeste
+      - Jaru
+      - Ji-Paraná
+      - Machadinho d'Oeste
+      - Ministro Andreazza
+      - Mirante da Serra
+      - Monte Negro
+      - Nova Brasilândia d'Oeste
+      - Nova Mamoré
+      - Nova União
+      - Novo Horizonte do Oeste
+      - Ouro Preto do Oeste
+      - Parecis
+      - Pimenta Bueno
+      - Pimenteiras do Oeste
+      - Porto Velho
+      - Presidente Médici
+      - Primavera de Rondônia
+      - Rio Crespo
+      - Rolim de Moura
+      - Santa Luzia d'Oeste
+      - São Felipe d'Oeste
+      - São Francisco do Guaporé
+      - São Miguel do Guaporé
+      - Seringueiras
+      - Teixeirópolis
+      - Theobroma
+      - Urupá
+      - Vale do Anari
+      - Vale do Paraíso
+      - Vilhena
+  - code: RR
+    name: Roraima
+    counties:
+      - Alto Alegre
+      - Amajari
+      - Boa Vista
+      - Bonfim
+      - Cantá
+      - Caracaraí
+      - Caroebe
+      - Iracema
+      - Mucajaí
+      - Normandia
+      - Pacaraima
+      - Rorainópolis
+      - São João da Baliza
+      - São Luís
+      - Uiramutã
   - code: RS
     name: Rio Grande do Sul
     counties:
@@ -4446,79 +4519,6 @@ states:
       - Vitória das Missões
       - Westfália
       - Xangri-lá
-  - code: RO
-    name: Rondônia
-    counties:
-      - Alta Floresta d'Oeste
-      - Alto Alegre dos Parecis
-      - Alto Paraíso
-      - Alvorada d'Oeste
-      - Ariquemes
-      - Buritis
-      - Cabixi
-      - Cacaulândia
-      - Cacoal
-      - Campo Novo de Rondônia
-      - Candeias do Jamari
-      - Castanheiras
-      - Cerejeiras
-      - Chupinguaia
-      - Colorado do Oeste
-      - Corumbiara
-      - Costa Marques
-      - Cujubim
-      - Espigão d'Oeste
-      - Governador Jorge Teixeira
-      - Guajará-Mirim
-      - Itapuã do Oeste
-      - Jaru
-      - Ji-Paraná
-      - Machadinho d'Oeste
-      - Ministro Andreazza
-      - Mirante da Serra
-      - Monte Negro
-      - Nova Brasilândia d'Oeste
-      - Nova Mamoré
-      - Nova União
-      - Novo Horizonte do Oeste
-      - Ouro Preto do Oeste
-      - Parecis
-      - Pimenta Bueno
-      - Pimenteiras do Oeste
-      - Porto Velho
-      - Presidente Médici
-      - Primavera de Rondônia
-      - Rio Crespo
-      - Rolim de Moura
-      - Santa Luzia d'Oeste
-      - São Felipe d'Oeste
-      - São Francisco do Guaporé
-      - São Miguel do Guaporé
-      - Seringueiras
-      - Teixeirópolis
-      - Theobroma
-      - Urupá
-      - Vale do Anari
-      - Vale do Paraíso
-      - Vilhena
-  - code: RR
-    name: Roraima
-    counties:
-      - Alto Alegre
-      - Amajari
-      - Boa Vista
-      - Bonfim
-      - Cantá
-      - Caracaraí
-      - Caroebe
-      - Iracema
-      - Mucajaí
-      - Normandia
-      - Pacaraima
-      - Rorainópolis
-      - São João da Baliza
-      - São Luís
-      - Uiramutã
   - code: SC
     name: Santa Catarina
     counties:
@@ -4817,6 +4817,84 @@ states:
       - Xavantina
       - Xaxim
       - Zortéa
+  - code: SE
+    name: Sergipe
+    counties:
+      - Amparo de São Francisco
+      - Aquidabã
+      - Aracaju
+      - Arauá
+      - Areia Branca
+      - Barra dos Coqueiros
+      - Boquim
+      - Brejo Grande
+      - Campo do Brito
+      - Canhoba
+      - Canindé de São Francisco
+      - Capela
+      - Carira
+      - Carmópolis
+      - Cedro de São João
+      - Cristinápolis
+      - Cumbe
+      - Divina Pastora
+      - Estância
+      - Feira Nova
+      - Frei Paulo
+      - Gararu
+      - General Maynard
+      - Graccho Cardoso
+      - Ilha das Flores
+      - Indiaroba
+      - Itabaiana
+      - Itabaianinha
+      - Itabi
+      - Itaporanga d'Ajuda
+      - Japaratuba
+      - Japoatã
+      - Lagarto
+      - Laranjeiras
+      - Macambira
+      - Malhada dos Bois
+      - Malhador
+      - Maruim
+      - Moita Bonita
+      - Monte Alegre de Sergipe
+      - Muribeca
+      - Neópolis
+      - Nossa Senhora Aparecida
+      - Nossa Senhora da Glória
+      - Nossa Senhora das Dores
+      - Nossa Senhora de Lourdes
+      - Nossa Senhora do Socorro
+      - Pacatuba
+      - Pedra Mole
+      - Pedrinhas
+      - Pinhão
+      - Pirambu
+      - Poço Redondo
+      - Poço Verde
+      - Porto da Folha
+      - Propriá
+      - Riachão do Dantas
+      - Riachuelo
+      - Ribeirópolis
+      - Rosário do Catete
+      - Salgado
+      - Santa Luzia do Itanhy
+      - Santa Rosa de Lima
+      - Santana do São Francisco
+      - Santo Amaro das Brotas
+      - São Cristóvão
+      - São Domingos
+      - São Francisco
+      - São Miguel do Aleixo
+      - Simão Dias
+      - Siriri
+      - Telha
+      - Tobias Barreto
+      - Tomar do Geru
+      - Umbaúba
   - code: SP
     name: São Paulo
     counties:
@@ -5465,84 +5543,6 @@ states:
       - Votorantim
       - Votuporanga
       - Zacarias
-  - code: SE
-    name: Sergipe
-    counties:
-      - Amparo de São Francisco
-      - Aquidabã
-      - Aracaju
-      - Arauá
-      - Areia Branca
-      - Barra dos Coqueiros
-      - Boquim
-      - Brejo Grande
-      - Campo do Brito
-      - Canhoba
-      - Canindé de São Francisco
-      - Capela
-      - Carira
-      - Carmópolis
-      - Cedro de São João
-      - Cristinápolis
-      - Cumbe
-      - Divina Pastora
-      - Estância
-      - Feira Nova
-      - Frei Paulo
-      - Gararu
-      - General Maynard
-      - Graccho Cardoso
-      - Ilha das Flores
-      - Indiaroba
-      - Itabaiana
-      - Itabaianinha
-      - Itabi
-      - Itaporanga d'Ajuda
-      - Japaratuba
-      - Japoatã
-      - Lagarto
-      - Laranjeiras
-      - Macambira
-      - Malhada dos Bois
-      - Malhador
-      - Maruim
-      - Moita Bonita
-      - Monte Alegre de Sergipe
-      - Muribeca
-      - Neópolis
-      - Nossa Senhora Aparecida
-      - Nossa Senhora da Glória
-      - Nossa Senhora das Dores
-      - Nossa Senhora de Lourdes
-      - Nossa Senhora do Socorro
-      - Pacatuba
-      - Pedra Mole
-      - Pedrinhas
-      - Pinhão
-      - Pirambu
-      - Poço Redondo
-      - Poço Verde
-      - Porto da Folha
-      - Propriá
-      - Riachão do Dantas
-      - Riachuelo
-      - Ribeirópolis
-      - Rosário do Catete
-      - Salgado
-      - Santa Luzia do Itanhy
-      - Santa Rosa de Lima
-      - Santana do São Francisco
-      - Santo Amaro das Brotas
-      - São Cristóvão
-      - São Domingos
-      - São Francisco
-      - São Miguel do Aleixo
-      - Simão Dias
-      - Siriri
-      - Telha
-      - Tobias Barreto
-      - Tomar do Geru
-      - Umbaúba
   - code: TO
     name: Tocantins
     counties:
