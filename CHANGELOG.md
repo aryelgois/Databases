@@ -10,21 +10,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-### Added
+
+## [0.6.0] - 2018-04-01
 
 ### Changed
 - Update dependencies
 - Update and rename [aryelgois/Medools] config file
 - Sort Address source by State code
 
-### Deprecated
-
 ### Removed
 - Implicit optional column in FullAddress from explicit list
 
-### Fixed
-
-### Security
 
 ## [0.5.0] - 2018-02-17
 
@@ -115,7 +111,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - DocBlocks
 
 
-[Unreleased]: https://github.com/aryelgois/databases/compare/v0.5.0...develop
+[Unreleased]: https://github.com/aryelgois/databases/compare/v0.6.0...develop
+[0.6.0]: https://github.com/aryelgois/databases/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/aryelgois/databases/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/aryelgois/databases/compare/v0.3.2...v0.4.0
 [0.3.2]: https://github.com/aryelgois/databases/compare/v0.3.1...v0.3.2
