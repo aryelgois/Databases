@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 - Address sourcer script
+- Address Makefile
 
 ### Changed
 - Update dependencies
