@@ -151,7 +151,7 @@ The following countries are ready for use:
 
 update     | Alpha-2 | Country
 ----------:|:-------:|:-------
-2018-02-17 | BR      | Brazil
+2018-05-29 | BR      | Brazil
 
 
 # TODO
