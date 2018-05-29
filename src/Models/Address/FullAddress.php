@@ -48,7 +48,7 @@ class FullAddress extends Medools\Model
 
     const FOREIGN_KEYS = [
         'county' => [
-            __NAMESPACE__ . '\\County',
+            County::class,
             'id'
         ],
     ];

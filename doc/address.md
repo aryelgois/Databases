@@ -129,6 +129,18 @@ In the generated sql, the INSERT INTO statements are divided into chunks, each
 with no more than 100 entries.
 
 
+# Sourcer
+
+There is a script at `scripts/address.sh` that fetches and builds the YAML
+source files. It has a Makefile at `data/address/Makefile`.
+
+This script would be enough to the repository, but `sort(1)` can't handle some
+characters properly. So both the script and the YAML files will be kept in Git.
+
+After fetching the data, it is advised to resort the cached files, preferably
+with `sort-lines:sort` command in [sort-lines] package.
+
+
 # How can I help?
 
 Write a YAML file for the another country in [source] and include it in the
@@ -139,7 +151,7 @@ The following countries are ready for use:
 
 update     | Alpha-2 | Country
 ----------:|:-------:|:-------
-2018-02-17 | BR      | Brazil
+2018-05-29 | BR      | Brazil
 
 
 # TODO
@@ -158,3 +170,5 @@ update     | Alpha-2 | Country
 
 [ISO_3166-1]: https://en.wikipedia.org/wiki/ISO_3166-1
 [ISO_3166-2]: https://en.wikipedia.org/wiki/ISO_3166-2
+
+[sort-lines]: https://github.com/atom/sort-lines
