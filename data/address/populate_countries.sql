@@ -1,3 +1,5 @@
+SET NAMES 'utf8' COLLATE 'utf8_general_ci';
+
 -- Help to include more countries and to keep this database updated
 -- Remember to create address.yml before
 -- You may change `name_local` for your use case and use `name_en` as a fallback
