@@ -12,7 +12,7 @@
     "require": {
         "php": "^7.0",
         "aryelgois/yasql-php": "^0.6.0",
-        "aryelgois/Medools": "^5.1",
+        "aryelgois/medools": "^5.1",
         "symfony/yaml": "^3.4"
     },
     "autoload": {
