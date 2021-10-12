@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f894e848ff13028338a49b25ed11570c",
+    "content-hash": "39462f5ba861b502aa29cf5249bf9a96",
     "packages": [
         {
             "name": "aryelgois/medools",
@@ -139,16 +139,16 @@
         },
         {
             "name": "catfan/medoo",
-            "version": "v1.5.6",
+            "version": "v1.7.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/catfan/Medoo.git",
-                "reference": "f77a93f72864e892c99d1033b8733e5da8fb0b3b"
+                "reference": "2d675f73e23f63bbaeb9a8aa33318659a3d3c32f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/catfan/Medoo/zipball/f77a93f72864e892c99d1033b8733e5da8fb0b3b",
-                "reference": "f77a93f72864e892c99d1033b8733e5da8fb0b3b",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/2d675f73e23f63bbaeb9a8aa33318659a3d3c32f",
+                "reference": "2d675f73e23f63bbaeb9a8aa33318659a3d3c32f",
                 "shasum": ""
             },
             "require": {
@@ -162,7 +162,7 @@
                 "ext-pdo_oci8": "For Oracle version 8 database",
                 "ext-pdo_pqsql": "For PostgreSQL database",
                 "ext-pdo_sqlite": "For SQLite database",
-                "ext-pdo_sqlsrv": "For MSSQL database"
+                "ext-pdo_sqlsrv": "For MSSQL database on both Window/Liunx platform"
             },
             "type": "framework",
             "autoload": {
@@ -180,10 +180,11 @@
                     "email": "angel@catfan.me"
                 }
             ],
-            "description": "The lightest PHP database framework to accelerate development",
+            "description": "The lightweight PHP database framework to accelerate development",
             "homepage": "https://medoo.in",
             "keywords": [
                 "database",
+                "database library",
                 "lightweight",
                 "mariadb",
                 "mssql",
@@ -194,7 +195,11 @@
                 "sql",
                 "sqlite"
             ],
-            "time": "2018-03-26T17:54:24+00:00"
+            "support": {
+                "issues": "https://github.com/catfan/Medoo/issues",
+                "source": "https://github.com/catfan/Medoo"
+            },
+            "time": "2020-02-11T08:20:42+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -320,5 +325,6 @@
     "platform": {
         "php": "^7.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
 }
